@@ -1,0 +1,491 @@
+---
+title: "TestMarkdown-Analysis"
+output:
+  pdf_document: default
+  html_document: default
+date: "`r Sys.Date()`"
+# YAML-MetaData
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Software Requirements:
+
+
+```{r eval=FALSE, include=TRUE}
+- R Installation
+- RStudio for IDE
+- LaTeX Installation for rendering RMarkdown to PDF (this file) 
+
+- GitHub Account for Repository/Data access
+
+```
+
+
+## Setting up the Environment:
+
+
+### Required R Packages:
+
+```{r eval=FALSE, include=TRUE}
+install.packages("rmarkdown")
+install.packages("devtools")
+
+install.packages("tidyverse")
+install.packages("metafor")
+install.packages("meta")
+
+install.packages("tidyr")
+
+install.packages("weightr")
+
+```
+
+
+
+### Loading first Packages:
+
+```{r echo=TRUE}
+library(rmarkdown)
+
+library(tidyverse)
+
+
+library(metafor)
+library(meta)
+library(dmetar)
+
+library (dplyr)
+library(tidyr)
+
+library(stringr)
+library(readr)
+
+```
+
+
+### Installing further R Packages:
+
+```{r eval=FALSE, include=TRUE}
+devtools::install_github("MathiasHarrer/dmetar") 
+
+
+```
+
+
+
+### Loading remaining Packages:
+
+```{r echo=TRUE}
+library(dmetar)
+
+```
+
+
+
+
+### Cloning Repository from Git-Hub (Fetching Data):
+```{r eval=FALSE, include=TRUE}
+usethis::create_from_github(
+  "https://github.com/VJMeyer/HPVPre_Repo.git",
+  destdir = "~/path/to/where/you/want/the/local/repo/"
+)
+
+```
+
+
+### Set Working-Directory:
+
+```{r eval=FALSE, include=TRUE}
+
+setwd("~/path/to/where/you/want/the/local/repo/")
+
+```
+
+
+### Set Private Working-Directory:
+
+```{r eval=TRUE, include=FALSE}
+setwd("/Users/vjm/Library/Mobile Documents/iCloud~md~obsidian/Documents/Vaulty/1_Foundations/Together/MubsThesisLocal/RStudioGitMirror")
+
+```
+
+
+
+### Confirm Working-Directory:
+
+```{r eval=TRUE, include=FALSE}
+#confirm working directory
+getwd()
+list.files() #list files within it
+
+```
+
+
+
+
+### Load Data:
+
+```{r Loading Data, echo=TRUE}
+library(tidyverse)
+
+any_type <- read_csv("Anytype_OLDI.csv")  
+hr_type <- read_csv("HR_OLDI.csv") 
+gtype <- read_csv("gtype.csv") 
+
+```
+
+# Quantitative Analysis
+
+## Data Cleaning
+
+### Ensure there are no MISSING values in the important columns of ANYTYPE Data:
+
+```{r , echo=TRUE}
+library(tidyverse)
+
+
+class(any_type)
+head(any_type)
+str(any_type)
+summary(any_type)
+view(any_type)
+
+```
+
+
+
+### Filter rows where num_older_wom is NA and select study_id
+
+```{r echo=TRUE}
+na_in_num_older_wom <- any_type %>%
+  filter(is.na(num_older_wom)) %>%
+  select(study_id)
+```
+
+### Filter rows where num_hpv_pos is NA and select study_id
+
+```{r }
+na_in_num_hpv_pos <-any_type %>%
+  filter(is.na(num_hpv_pos)) %>%
+  select(study_id)
+```
+
+### Filter rows where num_hpv_neg is NA and select study_id
+
+```{r }
+na_in_num_hpv_neg <- any_type %>%
+  filter(is.na(num_hpv_neg)) %>%
+  select(study_id)
+```
+
+### View the results
+
+```{r }
+na_in_num_older_wom
+na_in_num_hpv_pos
+na_in_num_hpv_neg
+```
+
+there was missing data in one row (63O) of num_hpv_neg which was corrected 
+
+Filter out rows where the identifier ends with 'P'
+
+```{r }
+any_type_filtered <- any_type %>%
+  filter(!str_detect(study_id, "P$"))
+
+summary(any_type_filtered)
+
+nrow(any_type_filtered)
+```
+
+
+
+### Extract and view unique study ids in hr_type_filtered to make sure it is correct
+
+```{r }
+unique_study_ids_any <- any_type_filtered %>%
+  select(study_id) %>%
+  distinct()
+
+print(unique_study_ids_any, n = 83)
+```
+
+
+
+###Ensure there are no MISSING values in the columns  of  HR TYPE  where there should be data
+
+```{r}
+class(hr_type)
+head(hr_type)
+str(hr_type)
+summary(hr_type)
+view(hr_type)
+nrow(hr_type)
+```
+
+### Filter rows where num_older_wom is NA and select study_id
+
+```{r}
+na_in_num_older_wom_hr <- hr_type %>%
+  filter(is.na(num_older_wom)) %>%
+  select(study_id)
+```
+
+### Filter rows where num_hr_hpv_pos is NA and select study_id
+
+```{r}
+na_in_num_hr_hpv_pos <- hr_type %>%
+  filter(is.na(num_hr_hpv_pos)) %>%
+  select(study_id)
+```
+
+### Filter rows where hr_prev is NA and select study_id
+
+```{r}
+na_in_hr_prev <- hr_type %>%
+  filter(is.na(hr_prev)) %>%
+  select(study_id)
+```
+
+### View the results
+
+```{r}
+na_in_num_older_wom_hr
+na_in_num_hr_hpv_pos
+na_in_hr_prev
+```
+
+we must exclude study id 23HG from the HR analysis because it has crude numbers for all gtypes but not for HR type
+Filter out rows where the identifier ends with 'P' or is '23HG'
+
+```{r}
+hr_type_filtered <- hr_type %>%
+  filter(!str_detect(study_id, "P$"), study_id != "23HG")
+
+
+summary(hr_type_filtered)
+nrow(hr_type_filtered)
+
+
+
+```
+
+### Extract and view unique study ids in hr_type_filtered to make sure it is correct
+
+```{r}
+unique_study_ids_hr <- hr_type_filtered %>%
+  select(study_id) %>%
+  distinct()
+
+print(unique_study_ids_hr, n = 112)
+```
+
+
+
+### Filter out rows where the identifier ends with 'P' for prevalance only for gtype_filtered 
+
+###trim whitespaces
+
+```{r}
+gtype <- gtype %>%
+  mutate(study_id = trimws(study_id))
+
+gtype_filtered <- gtype %>%
+  filter(!str_detect(study_id, "P$"))
+
+class(gtype_filtered)
+head(gtype_filtered)
+str(gtype_filtered)
+summary(gtype_filtered)
+view(gtype_filtered)
+
+summary(gtype_filtered)
+nrow(gtype_filtered)
+```
+
+
+
+### Extract and view unique study ids in gtype_filtered to make sure it is correct
+
+```{r}
+unique_study_ids_gtype <- gtype_filtered %>%
+  select(study_id) %>%
+  distinct()
+
+nrow(unique_study_ids_gtype)
+print(unique_study_ids_gtype, n = 43)
+
+```
+
+```{r}
+#Data frames for quantitative analysis ----
+# any hpv type analysis ---> any_type_filtered
+#hr type analysis ---> hr_type_filtered
+#type-specific analysis --->  gtype_filtered
+
+
+
+```
+
+
+
+ 
+
+
+### Meta-analysis model for any_type_filtered ----
+
+
+```{r}
+summary(any_type_filtered) # there are zero event values in the num_hpv_pos
+```
+
+### Identifying zero-event cases
+
+```{r}
+zero_event_cases <- any_type_filtered[any_type_filtered$num_hpv_pos == 0, ]
+```
+
+### Counting the number of zero-event cases
+
+```{r}
+num_zero_event_cases <- nrow(zero_event_cases)
+```
+
+### Printing the number of zero-event cases
+
+```{r}
+print(paste("Number of zero-event cases:", num_zero_event_cases))
+```
+
+### Printing the study IDs of zero-event cases
+
+```{r}
+if(num_zero_event_cases > 0) {
+  print("Study IDs with zero-event cases:")
+  print(zero_event_cases$author_year)
+  print(zero_event_cases$study_id)
+} else {
+  print("There are no zero-event cases.")
+}
+```
+
+
+
+### Random effects MA, Freeman-Tukey double arcsine transformation, restricted maximum likelihood estimator, Knapp-Hartung adjustment
+```{r}
+any_type_ma <- metaprop(event = num_hpv_pos, 
+                        n = num_older_wom,
+                        studlab = author_year,
+                        data = any_type_filtered, 
+                        sm = "PFT", 
+                        method.tau = "REML",
+                        method.ci = "NAsm",### Specify the method for confidence intervals
+                        add = 0,
+                        fixed = FALSE,
+                        random = TRUE,
+                        hakn = TRUE,
+                        title = "Anytype HPV Prevalence in Women (50+) with Predominantly Normal Cytology")
+
+summary(any_type_ma)
+```
+
+
+
+# ANYTYPE FOREST PLOT ----
+
+## Create a forest plot based on the meta-analysis results
+```{r}
+pdf("forestplot.pdf", width=10, height=20)  # Width and height in inches, adjust as needed
+
+forest(any_type_ma, 
+       common = TRUE, 
+       print.tau2 = TRUE, 
+       print.Q = TRUE, 
+       print.pval.Q = TRUE, 
+       print.I2 = TRUE, 
+       rightcols = FALSE, 
+       pooled.totals = TRUE, 
+       weight.study = "random", 
+       leftcols = c("studlab", "num_hpv_pos", "num_older_wom", "effect", "ci"), 
+       leftlabs = c("Study", "HPV+ Cases", "Total", "Prevalence", "95% C.I."), 
+       xlab = "Pooled Prevalence Rate", 
+       smlab = "", 
+       xlim = c(0,1), 
+       pscale = 1, 
+       squaresize = 0.5, 
+       fs.hetstat = 10, 
+       digits = 2, 
+       col.square = "navy", 
+       col.square.lines = "navy", 
+       col.diamond = "maroon", 
+       col.diamond.lines = "maroon")
+
+dev.off()
+```
+
+```{r}
+pdf("forestplot2.pdf", width=10, height=20)  # Width and height in inches, adjust as needed
+
+forest(any_type_ma,
+       common = TRUE, 
+       print.tau2 = TRUE, 
+       print.Q = TRUE, 
+       print.pval.Q = TRUE, 
+       print.I2 = TRUE, 
+       rightcols = FALSE, 
+       pooled.totals = TRUE,
+       weight.study = "random", 
+       xlab = "Pooled Prevalence Rate",
+       leftcols = c("studlab", "num_hpv_pos", "n", "effect", "ci"), 
+       leftlabs = c("Study", "HPV+ Cases", "Total", "Prevalence", "95% C.I."), 
+       smlab = "", 
+       xlim = c(0,1), 
+       pscale = 1, 
+       squaresize = 0.5, 
+       fs.hetstat = 10, 
+       digits = 2, 
+       col.square = "navy", 
+       col.square.lines = "navy", 
+       col.diamond = "maroon", 
+       col.diamond.lines = "maroon"
+)
+
+
+dev.off()
+```
+
+## Show Forest Plot
+```{r}
+system2('open', args = 'forestplot2.pdf', wait = FALSE)
+```
+
+
+# Funnel Plot
+```{r}
+funnel(any_type_ma, main="Funnel Plot for Meta-Analysis", xlim=c(0, 1))
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

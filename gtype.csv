@@ -1,0 +1,589 @@
+﻿study_id,author_year,title,study_design,ending_year,world_region,world_subregion,country,city_state,focus,overall_cytology,pap_method,recruitment_setting,hpv_types_reported,hpv_test,num_older_wom,num_hpv_pos,num_hr_hpv_pos,hpv_type,num_type,type_prev,notes
+4HG,"Yoshida et al., 2007","Quantitative real-time polymerase chain reaction analysis of the type distribution, viral load, and physical status of human papillomavirus in liquid-based cytology samples from cervical lesions",cross-sectional ,2004,Asia,Eastern Asia,Japan,Gunma,Both ,Predominantly normal ,LBC,clinical setting ,"HR-HPV, 16",PCR E6/E7,148,NA,30,16,3.6,0.024324324,"numbers are not reported in table format but as figures therefore there is a visual extrapolation done for % positivity, and data only separated for 55+ and 65+, because 50 is lost in the cat of 45-54"
+2OG,"Çolakoğlu et al., 2017",Human papilloma virus (HPV) prevalence and genotype distribution,cross-sectional ,2015,Asia,Western Asia,Turkey,Adana,Both ,Predominantly normal ,LBC,screening,"16, 18 overall",LA,52,23,NA,"16,18",7,0.134615385,Table 2 
+4OG,"Dutta et al, 2012","Prevalence of Human Papillomavirus in Women Without
+Cervical Cancer: A Population-based Study in Eastern India",cross-sectional ,2010,Asia,Southern Asia,India,West Bengal,Both ,Predominantly normal ,Conventional ,screening,"16, 18, overall ",MY09/11,114,11,NA,16,1,0.00877193,Table 4
+4OG,"Dutta et al, 2012","Prevalence of Human Papillomavirus in Women Without
+Cervical Cancer: A Population-based Study in Eastern India",cross-sectional ,2010,Asia,Southern Asia,India,West Bengal,Both ,Predominantly normal ,Conventional ,screening,"16, 18, overall",MY09/11,114,11,NA,18,1,0.00877193,Table 4
+8HG,"Hermansson et al., 2018",HPV prevalence and HPV-related dysplasia in elderly women,retrospective,2015,Europe,Northern Europe,Sweden,Mora,Older,Predominantly normal ,LBC,clinical setting ,"16, 18/45, 31, 33/52/58, 35, 39, 51, 56, 59",other PCR,1051,NA,43,16,12,0.011417697,Fig 3
+8HG,"Hermansson et al., 2018",HPV prevalence and HPV-related dysplasia in elderly women,retrospective,2015,Europe,Northern Europe,Sweden,Mora,Older,Predominantly normal ,LBC,screening,"16, 18/45, 31, 33/52/58, 35, 39, 51, 56, 59",other PCR,1051,NA,43,"18,45",5,0.004757374,Fig 3
+8HG,"Hermansson et al., 2018",HPV prevalence and HPV-related dysplasia in elderly women,retrospective,2015,Europe,Northern Europe,Sweden,Mora,Older,Predominantly normal ,LBC,clinical setting ,"16, 18/45, 31, 33/52/58, 35, 39, 51, 56, 59",other PCR,1051,NA,43,31,6,0.005708849,Fig 3
+8HG,"Hermansson et al., 2018",HPV prevalence and HPV-related dysplasia in elderly women,retrospective,2015,Europe,Northern Europe,Sweden,Mora,Older,Predominantly normal ,LBC,clinical setting ,"16, 18/45, 31, 33/52/58, 35, 39, 51, 56, 59",other PCR,1051,NA,43,"33, 52, 58",9,0.008563273,Fig 3
+8HG,"Hermansson et al., 2018",HPV prevalence and HPV-related dysplasia in elderly women,retrospective,2015,Europe,Northern Europe,Sweden,Mora,Older,Predominantly normal ,LBC,clinical setting ,"16, 18/45, 31, 33/52/58, 35, 39, 51, 56, 59",other PCR,1051,NA,43,35,3,0.002854424,Fig 3
+8HG,"Hermansson et al., 2018",HPV prevalence and HPV-related dysplasia in elderly women,retrospective,2015,Europe,Northern Europe,Sweden,Mora,Older,Predominantly normal ,LBC,clinical setting ,"16, 18/45, 31, 33/52/58, 35, 39, 51, 56, 59",other PCR,1051,NA,43,39,4,0.003805899,Fig 3
+8HG,"Hermansson et al., 2018",HPV prevalence and HPV-related dysplasia in elderly women,retrospective,2015,Europe,Northern Europe,Sweden,Mora,Older,Predominantly normal ,LBC,clinical setting ,"16, 18/45, 31, 33/52/58, 35, 39, 51, 56, 59",other PCR,1051,NA,43,51,4,0.003805899,Fig 3
+8HG,"Hermansson et al., 2018",HPV prevalence and HPV-related dysplasia in elderly women,retrospective,2015,Europe,Northern Europe,Sweden,Mora,Older,Predominantly normal ,LBC,clinical setting ,"16, 18/45, 31, 33/52/58, 35, 39, 51, 56, 59",other PCR,1051,NA,43,56,3,0.002854424,Fig 3
+8HG,"Hermansson et al., 2018",HPV prevalence and HPV-related dysplasia in elderly women,retrospective,2015,Europe,Northern Europe,Sweden,Mora,Older,Predominantly normal ,LBC,clinical setting ,"16, 18/45, 31, 33/52/58, 35, 39, 51, 56, 59",other PCR,1051,NA,43,59,2,0.00190295,Fig 3
+6OHG,"Jin et al., 2019","The prevalence and genotype distribution of
+human papillomaviruses among women in
+Taizhou, China",retrospective,2018,Asia ,Eastern Asia,China ,Taizhou,Both ,Predominantly normal ,NA,clinical setting ,"16, 18, 31, 33, 35, 39, 45, 51, 52, 56, 58, 59, 66, 68",other PCR,1851,745,650,16,113,0.061048082,Table 2 
+6OHG,"Jin et al., 2019","The prevalence and genotype distribution of
+human papillomaviruses among women in
+Taizhou, China",retrospective,2018,Asia ,Eastern Asia,China ,Taizhou,Both ,Predominantly normal ,NA,clinical setting ,"16, 18, 31, 33, 35, 39, 45, 51, 52, 56, 58, 59, 66, 68",other PCR,1851,745,650,18,31,0.016747704,Table 2 
+6OHG,"Jin et al., 2019","The prevalence and genotype distribution of
+human papillomaviruses among women in
+Taizhou, China",retrospective,2018,Asia ,Eastern Asia,China ,Taizhou,Both ,Predominantly normal ,NA,clinical setting ,"16, 18, 31, 33, 35, 39, 45, 51, 52, 56, 58, 59, 66, 68",other PCR,1851,745,650,31,31,0.016747704,Table 2 
+6OHG,"Jin et al., 2019","The prevalence and genotype distribution of
+human papillomaviruses among women in
+Taizhou, China",retrospective,2018,Asia ,Eastern Asia,China ,Taizhou,Both ,Predominantly normal ,NA,clinical setting ,"16, 18, 31, 33, 35, 39, 45, 51, 52, 56, 58, 59, 66, 68",other PCR,1851,745,650,33,46,0.024851432,Table 2 
+6OHG,"Jin et al., 2019","The prevalence and genotype distribution of
+human papillomaviruses among women in
+Taizhou, China",retrospective,2018,Asia ,Eastern Asia,China ,Taizhou,Both ,Predominantly normal ,NA,clinical setting ,"16, 18, 31, 33, 35, 39, 45, 51, 52, 56, 58, 59, 66, 68",other PCR,1851,745,650,35,24,0.012965964,Table 2 
+6OHG,"Jin et al., 2019","The prevalence and genotype distribution of
+human papillomaviruses among women in
+Taizhou, China",retrospective,2018,Asia ,Eastern Asia,China ,Taizhou,Both ,Predominantly normal ,NA,clinical setting ,"16, 18, 31, 33, 35, 39, 45, 51, 52, 56, 58, 59, 66, 68",other PCR,1851,745,650,39,27,0.01458671,Table 2 
+6OHG,"Jin et al., 2019","The prevalence and genotype distribution of
+human papillomaviruses among women in
+Taizhou, China",retrospective,2018,Asia ,Eastern Asia,China ,Taizhou,Both ,Predominantly normal ,NA,clinical setting ,"16, 18, 31, 33, 35, 39, 45, 51, 52, 56, 58, 59, 66, 68",other PCR,1851,745,650,45,10,0.005402485,Table 2 
+6OHG,"Jin et al., 2019","The prevalence and genotype distribution of
+human papillomaviruses among women in
+Taizhou, China",retrospective,2018,Asia ,Eastern Asia,China ,Taizhou,Both ,Predominantly normal ,NA,clinical setting ,"16, 18, 31, 33, 35, 39, 45, 51, 52, 56, 58, 59, 66, 68",other PCR,1851,745,650,51,60,0.032414911,Table 2 
+6OHG,"Jin et al., 2019","The prevalence and genotype distribution of
+human papillomaviruses among women in
+Taizhou, China",retrospective,2018,Asia ,Eastern Asia,China ,Taizhou,Both ,Predominantly normal ,NA,clinical setting ,"16, 18, 31, 33, 35, 39, 45, 51, 52, 56, 58, 59, 66, 68",other PCR,1851,745,650,52,149,0.080497029,Table 2 
+6OHG,"Jin et al., 2019","The prevalence and genotype distribution of
+human papillomaviruses among women in
+Taizhou, China",retrospective,2018,Asia ,Eastern Asia,China ,Taizhou,Both ,Predominantly normal ,NA,clinical setting ,"16, 18, 31, 33, 35, 39, 45, 51, 52, 56, 58, 59, 66, 68",other PCR,1851,745,650,56,71,0.038357645,Table 2 
+6OHG,"Jin et al., 2019","The prevalence and genotype distribution of
+human papillomaviruses among women in
+Taizhou, China",retrospective,2018,Asia ,Eastern Asia,China ,Taizhou,Both ,Predominantly normal ,NA,clinical setting ,"16, 18, 31, 33, 35, 39, 45, 51, 52, 56, 58, 59, 66, 68",other PCR,1851,745,650,58,83,0.044840627,Table 2 
+6OHG,"Jin et al., 2019","The prevalence and genotype distribution of
+human papillomaviruses among women in
+Taizhou, China",retrospective,2018,Asia ,Eastern Asia,China ,Taizhou,Both ,Predominantly normal ,NA,clinical setting ,"16, 18, 31, 33, 35, 39, 45, 51, 52, 56, 58, 59, 66, 68",other PCR,1851,745,650,59,45,0.024311183,Table 2 
+6OHG,"Jin et al., 2019","The prevalence and genotype distribution of
+human papillomaviruses among women in
+Taizhou, China",retrospective,2018,Asia ,Eastern Asia,China ,Taizhou,Both ,Predominantly normal ,NA,clinical setting ,"16, 18, 31, 33, 35, 39, 45, 51, 52, 56, 58, 59, 66, 68",other PCR,1851,745,650,66,61,0.032955159,Table 2 
+6OHG,"Jin et al., 2019","The prevalence and genotype distribution of
+human papillomaviruses among women in
+Taizhou, China",retrospective,2018,Asia ,Eastern Asia,China ,Taizhou,Both ,Predominantly normal ,NA,clinical setting ,"16, 18, 31, 33, 35, 39, 45, 51, 52, 56, 58, 59, 66, 68",other PCR,1851,745,650,68,61,0.032955159,Table 2 
+10OHG,"Richter et al., 2013","Age-specific prevalence of cervical human
+papillomavirus infection and cytological abnormalities in women in Gauteng Province, South Africa",cross-sectional ,2011,Africa,Southern Africa,South Africa,Gauteng,Both ,Predominantly normal ,conventional ,screening,"16, 18, 16/18",LA,325,137,82,16,19,0.058461538,Table 1
+10OHG,"Richter et al., 2013","Age-specific prevalence of cervical human
+papillomavirus infection and cytological abnormalities in women in Gauteng Province, South Africa",cross-sectional ,2011,Africa,Southern Africa,South Africa,Gauteng,Both ,Predominantly normal ,conventional ,screening,"16, 18, 16/18",LA,325,137,82,18,14,0.043076923,Table 1
+10OHG,"Richter et al., 2013","Age-specific prevalence of cervical human
+papillomavirus infection and cytological abnormalities in women in Gauteng Province, South Africa",cross-sectional ,2011,Africa,Southern Africa,South Africa,Gauteng,Both ,Predominantly normal ,conventional ,screening,"16, 18, 16/18",LA,325,137,82,"16,18",33,0.101538462,Table 1
+71HG,"Stoler et al., 2018","The Onclarity Human Papillomavirus Trial: Design, methods, and
+baseline results",prospective,2018,Americas ,North America,USA,NA,Both ,Predominantly normal ,LBC,screening ,"16, 18, 31, 45, 33/58, 35/39/68, 51, 52, 56/59/66",multiple,7252,NA,503,16,96,0.013237728,Table 3
+71HG,"Stoler et al., 2018","The Onclarity Human Papillomavirus Trial: Design, methods, and
+baseline results",prospective,2018,Americas ,North America,USA,NA,Both ,Predominantly normal ,LBC,screening ,"16, 18, 31, 45, 33/58, 35/39/68, 51, 52, 56/59/66",multiple,7252,NA,503,18,30,0.00413679,Table 3
+71HG,"Stoler et al., 2018","The Onclarity Human Papillomavirus Trial: Design, methods, and
+baseline results",prospective,2018,Americas ,North America,USA,NA,Both ,Predominantly normal ,LBC,screening ,"16, 18, 31, 45, 33/58, 35/39/68, 51, 52, 56/59/66",mulitple,7252,NA,503,31,50,0.00689465,Table 3
+71HG,"Stoler et al., 2018","The Onclarity Human Papillomavirus Trial: Design, methods, and
+baseline results",prospective,2018,Americas ,North America,USA,NA,Both ,Predominantly normal ,LBC,screening ,"16, 18, 31, 45, 33/58, 35/39/68, 51, 52, 56/59/66",multiple,7252,NA,503,45,24,0.003309432,Table 3
+71HG,"Stoler et al., 2018","The Onclarity Human Papillomavirus Trial: Design, methods, and
+baseline results",prospective,2018,Americas ,North America,USA,NA,Both ,Predominantly normal ,LBC,screening ,"16, 18, 31, 45, 33/58, 35/39/68, 51, 52, 56/59/66",mulitple,7252,NA,503,"33,58",54,0.007446222,Table 3
+71HG,"Stoler et al., 2018","The Onclarity Human Papillomavirus Trial: Design, methods, and
+baseline results",prospective,2018,Americas ,North America,USA,NA,Both ,Predominantly normal ,LBC,screening ,"16, 18, 31, 45, 33/58, 35/39/68, 51, 52, 56/59/66",multiple,7252,NA,503,"35,39,68",139,0.019167126,Table 3
+71HG,"Stoler et al., 2018","The Onclarity Human Papillomavirus Trial: Design, methods, and
+baseline results",prospective,2018,Americas ,North America,USA,NA,Both ,Predominantly normal ,LBC,screening ,"16, 18, 31, 45, 33/58, 35/39/68, 51, 52, 56/59/66",multiple,7252,NA,503,51,21,0.002895753,Table 3
+71HG,"Stoler et al., 2018","The Onclarity Human Papillomavirus Trial: Design, methods, and
+baseline results",prospective,2018,Americas ,North America,USA,NA,Both ,Predominantly normal ,LBC,screening ,"16, 18, 31, 45, 33/58, 35/39/68, 51, 52, 56/59/66",multiple,7252,NA,503,52,80,0.01103144,Table 3
+71HG,"Stoler et al., 2018","The Onclarity Human Papillomavirus Trial: Design, methods, and
+baseline results",prospective,2018,Americas ,North America,USA,NA,Both ,Predominantly normal ,LBC,screening ,"16, 18, 31, 45, 33/58, 35/39/68, 51, 52, 56/59/66",multiple,7252,NA,503,"56,59,66",125,0.017236624,Table 3
+17HG,"Wu et al., 2017","A cross-sectional study on HPV testing with type 16/18 genotyping for cervical cancer screening in 11,064 Chinese women",prospective,2015,Asia,Eastern Asia,China,Longyou County,Both ,Predominantly normal ,LBC,general population,"HR-HPV, 16/18",Cobas,3859,NA,447,"16,18",109,0.028245659,Figure 3
+16OHG,"Brotherton et al., 2015",Human papillomavirus prevalence to age 60 years among Australian women prevaccination,cross-sectional ,2008,Oceania,Austraiia and New Zealand,Australia,NA,Both ,Predominantly normal ,LBC,clinical setting ,"HR-HPV, 6/11/16/18, 16/18",PGMY09/11,135,23,12,6/11/16/18,5,0.037037037,Table 1
+16OHG,"Brotherton et al., 2015",Human papillomavirus prevalence to age 60 years among Australian women prevaccination,cross-sectional ,2008,Oceania,Austraiia and New Zealand,Australia,NA,Both ,Predominantly normal ,LBC,clinical setting ,"HR-HPV, 6/11/16/18, 16/18",PGMY09/11,135,23,12,16/18,5,0.037037037,Table1
+24HG,"Agarossi et al., 2009","Prevalence and Type Distribution of High-Risk
+Human Papillomavirus Infection in Women
+Undergoing Voluntary Cervical Cancer
+Screening in Italy",cross-sectional ,2006,Europe,Southern Europe,Italy,NA,Both ,Predominantly normal ,LBC,screening,"HR-HPV, 16, 18, 31, 33, 35, 39,
+45, 51, 52, 56, 58, 59, 68",GP5+/GP6+,1458,NA,104,16,26.603,0.018246228,need to calculate N of infected by type individually based on % from table 1 by age group and then sum up
+24HG,"Agarossi et al., 2009","Prevalence and Type Distribution of High-Risk
+Human Papillomavirus Infection in Women
+Undergoing Voluntary Cervical Cancer
+Screening in Italy",cross-sectional ,2006,Europe,Southern Europe,Italy,NA,Both ,Predominantly normal ,LBC,screening,"HR-HPV, 16, 18, 31, 33, 35, 39,
+45, 51, 52, 56, 58, 59, 68",GP5+/GP6+,1458,NA,104,18,8.788,0.006027435,need to calculate N of infected by type individually based on % from table 1 by age group and then sum up
+24HG,"Agarossi et al., 2009","Prevalence and Type Distribution of High-Risk
+Human Papillomavirus Infection in Women
+Undergoing Voluntary Cervical Cancer
+Screening in Italy",cross-sectional ,2006,Europe,Southern Europe,Italy,NA,Both ,Predominantly normal ,LBC,screening,"HR-HPV, 16, 18, 31, 33, 35, 39,
+45, 51, 52, 56, 58, 59, 68",GP5+/GP6+,1458,NA,104,31,8.466,0.005806584,need to calculate N of infected by type individually based on % from table 1 by age group and then sum up
+24HG,"Agarossi et al., 2009","Prevalence and Type Distribution of High-Risk
+Human Papillomavirus Infection in Women
+Undergoing Voluntary Cervical Cancer
+Screening in Italy",cross-sectional ,2006,Europe,Southern Europe,Italy,NA,Both ,Predominantly normal ,LBC,screening,"HR-HPV, 16, 18, 31, 33, 35, 39,
+45, 51, 52, 56, 58, 59, 68",GP5+/GP6+,1458,NA,104,33,4.568,0.003133059,need to calculate N of infected by type individually based on % from table 1 by age group and then sum up
+24HG,"Agarossi et al., 2009","Prevalence and Type Distribution of High-Risk
+Human Papillomavirus Infection in Women
+Undergoing Voluntary Cervical Cancer
+Screening in Italy",cross-sectional ,2006,Europe,Southern Europe,Italy,NA,Both ,Predominantly normal ,LBC,screening,"HR-HPV, 16, 18, 31, 33, 35, 39,
+45, 51, 52, 56, 58, 59, 68",GP5+/GP6+,1458,NA,104,35,7.889,0.005410837,need to calculate N of infected by type individually based on % from table 1 by age group and then sum up
+24HG,"Agarossi et al., 2009","Prevalence and Type Distribution of High-Risk
+Human Papillomavirus Infection in Women
+Undergoing Voluntary Cervical Cancer
+Screening in Italy",cross-sectional ,2006,Europe,Southern Europe,Italy,NA,Both ,Predominantly normal ,LBC,screening,"HR-HPV, 16, 18, 31, 33, 35, 39,
+45, 51, 52, 56, 58, 59, 68",GP5+/GP6+,1458,NA,104,39,4.233,0.002903292,need to calculate N of infected by type individually based on % from table 1 by age group and then sum up
+24HG,"Agarossi et al., 2009","Prevalence and Type Distribution of High-Risk
+Human Papillomavirus Infection in Women
+Undergoing Voluntary Cervical Cancer
+Screening in Italy",cross-sectional ,2006,Europe,Southern Europe,Italy,NA,Both ,Predominantly normal ,LBC,screening,"HR-HPV, 16, 18, 31, 33, 35, 39,
+45, 51, 52, 56, 58, 59, 68",GP5+/GP6+,1458,NA,104,45,2.864,0.001964335,need to calculate N of infected by type individually based on % from table 1 by age group and then sum up
+24HG,"Agarossi et al., 2009","Prevalence and Type Distribution of High-Risk
+Human Papillomavirus Infection in Women
+Undergoing Voluntary Cervical Cancer
+Screening in Italy",cross-sectional ,2006,Europe,Southern Europe,Italy,NA,Both ,Predominantly normal ,LBC,screening,"HR-HPV, 16, 18, 31, 33, 35, 39,
+45, 51, 52, 56, 58, 59, 68",GP5+/GP6+,1458,NA,104,51,6.833,0.004686557,need to calculate N of infected by type individually based on % from table 1 by age group and then sum up
+24HG,"Agarossi et al., 2009","Prevalence and Type Distribution of High-Risk
+Human Papillomavirus Infection in Women
+Undergoing Voluntary Cervical Cancer
+Screening in Italy",cross-sectional ,2006,Europe,Southern Europe,Italy,NA,Both ,Predominantly normal ,LBC,screening,"HR-HPV, 16, 18, 31, 33, 35, 39,
+45, 51, 52, 56, 58, 59, 68",GP5+/GP6+,1458,NA,104,52,7.152,0.00490535,need to calculate N of infected by type individually based on % from table 1 by age group and then sum up
+24HG,"Agarossi et al., 2009","Prevalence and Type Distribution of High-Risk
+Human Papillomavirus Infection in Women
+Undergoing Voluntary Cervical Cancer
+Screening in Italy",cross-sectional ,2006,Europe,Southern Europe,Italy,NA,Both ,Predominantly normal ,LBC,screening,"HR-HPV, 16, 18, 31, 33, 35, 39,
+45, 51, 52, 56, 58, 59, 68",GP5+/GP6+,1458,NA,104,56,15.759,0.010808642,need to calculate N of infected by type individually based on % from table 1 by age group and then sum up
+24HG,"Agarossi et al., 2009","Prevalence and Type Distribution of High-Risk
+Human Papillomavirus Infection in Women
+Undergoing Voluntary Cervical Cancer
+Screening in Italy",cross-sectional ,2006,Europe,Southern Europe,Italy,NA,Both ,Predominantly normal ,LBC,screening,"HR-HPV, 16, 18, 31, 33, 35, 39,
+45, 51, 52, 56, 58, 59, 68",GP5+/GP6+,1458,NA,104,58,8.147,0.005587791,need to calculate N of infected by type individually based on % from table 1 by age group and then sum up
+24HG,"Agarossi et al., 2009","Prevalence and Type Distribution of High-Risk
+Human Papillomavirus Infection in Women
+Undergoing Voluntary Cervical Cancer
+Screening in Italy",cross-sectional ,2006,Europe,Southern Europe,Italy,NA,Both ,Predominantly normal ,LBC,screening,"HR-HPV, 16, 18, 31, 33, 35, 39,
+45, 51, 52, 56, 58, 59, 68",GP5+/GP6+,1458,NA,104,59,4.248,0.00291358,need to calculate N of infected by type individually based on % from table 1 by age group and then sum up
+24HG,"Agarossi et al., 2009","Prevalence and Type Distribution of High-Risk
+Human Papillomavirus Infection in Women
+Undergoing Voluntary Cervical Cancer
+Screening in Italy",cross-sectional ,2006,Europe,Southern Europe,Italy,NA,Both ,Predominantly normal ,LBC,screening,"HR-HPV, 16, 18, 31, 33, 35, 39,
+45, 51, 52, 56, 58, 59, 68",GP5+/GP6+,1458,NA,104,68,8.288,0.005684499,need to calculate N of infected by type individually based on % from table 1 by age group and then sum up
+25HG,"Agorastos et al., 2019",Implementation of HPV-based Cervical Cancer Screening Combined with Self-sampling Using a Midwifery Network Across Rural Greece: The GRECOSELF Study,cross-sectional ,2018,Europe,Southern Europe,Greece,NA,Both ,Predominantly normal ,LBC,screening,"HR-HPV, 16, 18 ",Cobas,4788,NA,238,16,32,0.006683375,Table 4
+25HG,"Agorastos et al., 2019",Implementation of HPV-based Cervical Cancer Screening Combined with Self-sampling Using a Midwifery Network Across Rural Greece: The GRECOSELF Study,cross-sectional ,2018,Europe,Southern Europe,Greece,NA,Both ,Predominantly normal ,LBC,screening,"HR-HPV, 16, 18 ",Cobas,4788,NA,238,18,18,0.003759398,Table 4
+18OHG,"Andujar et al., 2020","Prevalence and genotype distribution of
+cervical human papilomavirus infection
+in the pre-vaccination
+era: a population-based
+study in the Canary Islands",cross-sectional ,2007,Europe,Southern Europe,Spain,Canary Islands,Both ,Predominantly normal ,conventional ,screening,"HR-HPV, 16/18, 6/11/16/18/31/33/45/52/58",MY09/11 and GP5+/GP6+,1601,129,85.91,16/18,21.725,0.013569644,Figure 1 using PlotDigitizer
+18OHG,"Andujar et al., 2020","Prevalence and genotype distribution of
+cervical human papilomavirus infection
+in the pre-vaccination
+era: a population-based
+study in the Canary Islands",cross-sectional ,2007,Europe,Southern Europe,Spain,Canary Islands,Both ,Predominantly normal ,conventional ,screening,"HR-HPV, 16/18, 6/11/16/18/31/33/45/52/58",MY09/11 and GP5+/GP6+,1601,129,85.91,6/11/16/18/31/33/45/52/58,44.05,0.027514054,Figure 1 using PlotDigitizer
+29HG,"Bergengren et al., 2020","Prevalence of HPV and pathological changes among women 70 years
+of age, 10 years after exclusion from the Swedish cervical cancer
+screening program",cross-sectional ,2017,Europe,Northern Europe,Sweden,Örebro County,Older,Predominantly normal ,LBC,general population,"HR-HPV, 16, 33, 68",PCR E6/E7,809,NA,31,16,4.854,0.006,0.006 prevalence for type 16
+29HG,"Bergengren et al., 2020","Prevalence of HPV and pathological changes among women 70 years
+of age, 10 years after exclusion from the Swedish cervical cancer
+screening program",cross-sectional ,2017,Europe,Northern Europe,Sweden,Örebro County,Older,Predominantly normal ,LBC,general population,"HR-HPV, 16, 33, 68",PCR E6/E7,809,NA,31,33,4.854,0.006,0.006 prevalence for type 33
+29HG,"Bergengren et al., 2020","Prevalence of HPV and pathological changes among women 70 years
+of age, 10 years after exclusion from the Swedish cervical cancer
+screening program",cross-sectional ,2017,Europe,Northern Europe,Sweden,Örebro County,Older,Predominantly normal ,LBC,general population,"HR-HPV, 16, 33, 68",PCR E6/E7,809,NA,31,68,4.854,0.006,0.006 prevalence for type 68
+30HG,"Bhar et al., 2015",Human papillomavirus (HPV) types 16 and 18 in liquid-based cervical cytology samples,prospective,NA,Asia,Southern Asia,India,Chandigarh,Both ,Predominantly normal ,LBC,screening,"16, 18, 16/18",other PCR,29,NA,16,16,12,0.413793103,Table 2
+30HG,"Bhar et al., 2015",Human papillomavirus (HPV) types 16 and 18 in liquid-based cervical cytology samples,prospective,NA,Asia,Southern Asia,India,Chandigarh,Both ,Predominantly normal ,LBC,screening,"16, 18, 16/18",other PCR,29,NA,16,18,8,0.275862069,Table 2
+30HG,"Bhar et al., 2015",Human papillomavirus (HPV) types 16 and 18 in liquid-based cervical cytology samples,prospective,NA,Asia,Southern Asia,India,Chandigarh,Both ,Predominantly normal ,LBC,screening,"16, 18, 16/18",other PCR,29,NA,16,16/18,4,0.137931034,Table 2
+30OG,"Cathro et al., 2009","Human papillomavirus profile of women in Belize City, Belize: correlation with cervical cytopathologic findings",cross-sectional ,2007,Americas,Central America,Belize,Belize City,Both ,Predominantly normal ,conventional ,screening,"overall, 16, 18",GP5+/6+,44,3,NA,16,0,0,Figure 1 using PlotDigitizer
+30OG,"Cathro et al., 2009","Human papillomavirus profile of women in Belize City, Belize: correlation with cervical cytopathologic findings",cross-sectional ,2007,Americas,Central America,Belize,Belize City,Both ,Predominantly normal ,conventional ,screening,"overall, 16, 18",GP5+/6+,44,3,NA,18,1.015,0.023068182,Figure 1 using PlotDigitizer
+31OG,"Centurioni et al., 2005",Prevalence of human papillomavirus cervical infection in an Italian asymptomatic population,cross-sectional ,1993,Europe,Southern,Italy,Genova,Both,Predominantly normal ,LBC,screening ,"overall, 6/11, 16, 18, 33",MY09/11,264,41,NA,"6,11",1,0.003787879,Table 2 
+31OG,"Centurioni et al., 2005",Prevalence of human papillomavirus cervical infection in an Italian asymptomatic population,cross-sectional ,1993,Europe,Southern,Italy,Genova,Both,Predominantly normal ,LBC,screening ,"overall, 6/11, 16, 18, 33",MY09/11,264,41,NA,16,28,0.106060606,Table 2 
+31OG,"Centurioni et al., 2005",Prevalence of human papillomavirus cervical infection in an Italian asymptomatic population,cross-sectional ,1993,Europe,Southern,Italy,Genova,Both,Predominantly normal ,LBC,screening ,"overall, 6/11, 16, 18, 33",MY09/11,264,41,NA,18,14,0.053030303,Table 2 
+31OG,"Centurioni et al., 2005",Prevalence of human papillomavirus cervical infection in an Italian asymptomatic population,cross-sectional ,1993,Europe,Southern,Italy,Genova,Both,Predominantly normal ,LBC,screening ,"overall, 6/11, 16, 18, 33",MY09/11,264,41,NA,33,2,0.007575758,Table 2 
+34OHG,"Chen et al., 2015","Prevalence and Genotype Distribution of Cervical Human Papillomavirus (HPV) Among Women in Urban Tianjin, China",cross-sectional ,2013,Asia,Eastern Asia,China,Tianjin,Both,Predominantly normal ,LBC,screening,"overall, HR-HPV, 16, 18, 58, 66",MY09/11 and GP5+/GP6+,747,110,89,16,34.91,0.046733601,prevalence for specific HR-HPV type reported in Figure 3 and extracted with Plot digitizer
+34OHG,"Chen et al., 2015","Prevalence and Genotype Distribution of Cervical Human Papillomavirus (HPV) Among Women in Urban Tianjin, China",cross-sectional ,2013,Asia,Eastern Asia,China,Tianjin,Both,Predominantly normal ,LBC,screening,"overall, HR-HPV, 16, 18, 58, 66",MY09/11 and GP5+/GP6+,747,110,89,18,9.127,0.012218206,prevalence for specific HR-HPV type reported in Figure 3 and extracted with Plot digitizer
+34OHG,"Chen et al., 2015","Prevalence and Genotype Distribution of Cervical Human Papillomavirus (HPV) Among Women in Urban Tianjin, China",cross-sectional ,2013,Asia,Eastern Asia,China,Tianjin,Both,Predominantly normal ,LBC,screening,"overall, HR-HPV, 16, 18, 58, 66",MY09/11 and GP5+/GP6+,747,110,89,58,19.088,0.025552878,prevalence for specific HR-HPV type reported in Figure 3 and extracted with Plot digitizer
+34OHG,"Chen et al., 2015","Prevalence and Genotype Distribution of Cervical Human Papillomavirus (HPV) Among Women in Urban Tianjin, China",cross-sectional ,2013,Asia,Eastern Asia,China,Tianjin,Both,Predominantly normal ,LBC,screening,"overall, HR-HPV, 16, 18, 58, 66",MY09/11 and GP5+/GP6+,747,110,89,66,3.973,0.005318608,prevalence for specific HR-HPV type reported in Figure 3 and extracted with Plot digitizer
+39OG,"Debrah et al., 2021","Prevalence of vaccine and non‑vaccine
+human papillomavirus types among women
+in Accra and Kumasi, Ghana: a cross‑sectional
+study",cross-sectional ,2015,Africa,Western Africa,Ghana,"Accra, Kumasi",Both ,Predominantly normal ,Conventional ,clinical setting ,"overall, 16/18",PCR E6/E7,7,2,NA,"16,18",0,0,Supplementary Table S1
+40OHG,"Demers et al., 2012","Distribution of human papillomavirus types, cervical cancer screening history, and risk factors for infection in Manitoba",cross-sectional ,2008,Americas,North America,Canada,Manitoba,Both,Predominantly normal ,LBC,screening,"overall, HR-HPV, 16/18",other PCR,213,20,8,"16,18",4,0.018779343,"
+TABLE 2
+Age distribution of women by infection status and HPV type."
+41OHG,"Dufit et al., 2016","THE EPIDEMIOLOGY OF HUMAN PAPILLOMA VIRUS IN WOMEN AGED 20-65 YEARS LIVING IN REMOTE VILLAGES
+IN FRENCH GUIANA: ADAPTING INTERVENTIONS TO THE TERRITORY",cross-sectional ,2014,Americas,South America,French Guiana,NA,Both ,Predominantly normal ,LBC,general population,"overall, HR-HPV+, 52, 15, 68, 31, 58, 18, 56, 51, 39, 45, 35, 33, 59",other PCR,91,40,30,52,6,0.065934066,Table 3 for age specific HPV Genotype specific data
+41OHG,"Dufit et al., 2016","THE EPIDEMIOLOGY OF HUMAN PAPILLOMA VIRUS IN WOMEN AGED 20-65 YEARS LIVING IN REMOTE VILLAGES
+IN FRENCH GUIANA: ADAPTING INTERVENTIONS TO THE TERRITORY",cross-sectional ,2014,Americas,South America,French Guiana,NA,Both ,Predominantly normal ,LBC,general population,"overall, HR-HPV+, 52, 15, 68, 31, 58, 18, 56, 51, 39, 45, 35, 33, 59",other PCR,91,40,30,16,2,0.021978022,Table 3 for age specific HPV Genotype specific data
+41OHG,"Dufit et al., 2016","THE EPIDEMIOLOGY OF HUMAN PAPILLOMA VIRUS IN WOMEN AGED 20-65 YEARS LIVING IN REMOTE VILLAGES
+IN FRENCH GUIANA: ADAPTING INTERVENTIONS TO THE TERRITORY",cross-sectional ,2014,Americas,South America,French Guiana,NA,Both ,Predominantly normal ,LBC,general population,"overall, HR-HPV+, 52, 15, 68, 31, 58, 18, 56, 51, 39, 45, 35, 33, 59",other PCR,91,40,30,68,6,0.065934066,Table 3 for age specific HPV Genotype specific data
+41OHG,"Dufit et al., 2016","THE EPIDEMIOLOGY OF HUMAN PAPILLOMA VIRUS IN WOMEN AGED 20-65 YEARS LIVING IN REMOTE VILLAGES
+IN FRENCH GUIANA: ADAPTING INTERVENTIONS TO THE TERRITORY",cross-sectional ,2014,Americas,South America,French Guiana,NA,Both ,Predominantly normal ,LBC,general population,"overall, HR-HPV+, 52, 15, 68, 31, 58, 18, 56, 51, 39, 45, 35, 33, 59",other PCR,91,40,30,31,4,0.043956044,Table 3 for age specific HPV Genotype specific data
+41OHG,"Dufit et al., 2016","THE EPIDEMIOLOGY OF HUMAN PAPILLOMA VIRUS IN WOMEN AGED 20-65 YEARS LIVING IN REMOTE VILLAGES
+IN FRENCH GUIANA: ADAPTING INTERVENTIONS TO THE TERRITORY",cross-sectional ,2014,Americas,South America,French Guiana,NA,Both ,Predominantly normal ,LBC,general population,"overall, HR-HPV+, 52, 15, 68, 31, 58, 18, 56, 51, 39, 45, 35, 33, 59",other PCR,91,40,30,58,3,0.032967033,Table 3 for age specific HPV Genotype specific data
+41OHG,"Dufit et al., 2016","THE EPIDEMIOLOGY OF HUMAN PAPILLOMA VIRUS IN WOMEN AGED 20-65 YEARS LIVING IN REMOTE VILLAGES
+IN FRENCH GUIANA: ADAPTING INTERVENTIONS TO THE TERRITORY",cross-sectional ,2014,Americas,South America,French Guiana,NA,Both ,Predominantly normal ,LBC,general population,"overall, HR-HPV+, 52, 15, 68, 31, 58, 18, 56, 51, 39, 45, 35, 33, 59",other PCR,91,40,30,18,3,0.032967033,Table 3 for age specific HPV Genotype specific data
+41OHG,"Dufit et al., 2016","THE EPIDEMIOLOGY OF HUMAN PAPILLOMA VIRUS IN WOMEN AGED 20-65 YEARS LIVING IN REMOTE VILLAGES
+IN FRENCH GUIANA: ADAPTING INTERVENTIONS TO THE TERRITORY",cross-sectional ,2014,Americas,South America,French Guiana,NA,Both ,Predominantly normal ,LBC,general population,"overall, HR-HPV+, 52, 15, 68, 31, 58, 18, 56, 51, 39, 45, 35, 33, 59",other PCR,91,40,30,56,3,0.032967033,Table 3 for age specific HPV Genotype specific data
+41OHG,"Dufit et al., 2016","THE EPIDEMIOLOGY OF HUMAN PAPILLOMA VIRUS IN WOMEN AGED 20-65 YEARS LIVING IN REMOTE VILLAGES
+IN FRENCH GUIANA: ADAPTING INTERVENTIONS TO THE TERRITORY",cross-sectional ,2014,Americas,South America,French Guiana,NA,Both ,Predominantly normal ,LBC,general population,"overall, HR-HPV+, 52, 15, 68, 31, 58, 18, 56, 51, 39, 45, 35, 33, 59",other PCR,91,40,30,51,1,0.010989011,Table 3 for age specific HPV Genotype specific data
+41OHG,"Dufit et al., 2016","THE EPIDEMIOLOGY OF HUMAN PAPILLOMA VIRUS IN WOMEN AGED 20-65 YEARS LIVING IN REMOTE VILLAGES
+IN FRENCH GUIANA: ADAPTING INTERVENTIONS TO THE TERRITORY",cross-sectional ,2014,Americas,South America,French Guiana,NA,Both ,Predominantly normal ,LBC,general population,"overall, HR-HPV+, 52, 15, 68, 31, 58, 18, 56, 51, 39, 45, 35, 33, 59",other PCR,91,40,30,39,3,0.032967033,Table 3 for age specific HPV Genotype specific data
+41OHG,"Dufit et al., 2016","THE EPIDEMIOLOGY OF HUMAN PAPILLOMA VIRUS IN WOMEN AGED 20-65 YEARS LIVING IN REMOTE VILLAGES
+IN FRENCH GUIANA: ADAPTING INTERVENTIONS TO THE TERRITORY",cross-sectional ,2014,Americas,South America,French Guiana,NA,Both ,Predominantly normal ,LBC,general population,"overall, HR-HPV+, 52, 15, 68, 31, 58, 18, 56, 51, 39, 45, 35, 33, 59",other PCR,91,40,30,45,1,0.010989011,Table 3 for age specific HPV Genotype specific data
+41OHG,"Dufit et al., 2016","THE EPIDEMIOLOGY OF HUMAN PAPILLOMA VIRUS IN WOMEN AGED 20-65 YEARS LIVING IN REMOTE VILLAGES
+IN FRENCH GUIANA: ADAPTING INTERVENTIONS TO THE TERRITORY",cross-sectional ,2014,Americas,South America,French Guiana,NA,Both ,Predominantly normal ,LBC,general population,"overall, HR-HPV+, 52, 15, 68, 31, 58, 18, 56, 51, 39, 45, 35, 33, 59",other PCR,91,40,30,35,1,0.010989011,Table 3 for age specific HPV Genotype specific data
+41OHG,"Dufit et al., 2016","THE EPIDEMIOLOGY OF HUMAN PAPILLOMA VIRUS IN WOMEN AGED 20-65 YEARS LIVING IN REMOTE VILLAGES
+IN FRENCH GUIANA: ADAPTING INTERVENTIONS TO THE TERRITORY",cross-sectional ,2014,Americas,South America,French Guiana,NA,Both ,Predominantly normal ,LBC,general population,"overall, HR-HPV+, 52, 15, 68, 31, 58, 18, 56, 51, 39, 45, 35, 33, 59",other PCR,91,40,30,33,1,0.010989011,Table 3 for age specific HPV Genotype specific data
+41OHG,"Dufit et al., 2016","THE EPIDEMIOLOGY OF HUMAN PAPILLOMA VIRUS IN WOMEN AGED 20-65 YEARS LIVING IN REMOTE VILLAGES
+IN FRENCH GUIANA: ADAPTING INTERVENTIONS TO THE TERRITORY",cross-sectional ,2014,Americas,South America,French Guiana,NA,Both ,Predominantly normal ,LBC,general population,"overall, HR-HPV+, 52, 15, 68, 31, 58, 18, 56, 51, 39, 45, 35, 33, 59",other PCR,91,40,30,59,1,0.010989011,Table 3 for age specific HPV Genotype specific data
+45OHG,"Foliaki et al., 2014",Prevalence of HPV infection and other risk factors in a Fijian population,cross-sectional ,2010,Oceania,Melanesia,Fiji,Suva,Both,Predominantly normal ,NA,general population,"overall, HR-HPV, 16/18",GP5+/6+,70,13,4,"16,18",1.8756,0.026794286,Figure 1 using PlotDigitizer
+47OHG,"Hamlin-Douglas et al., 2008","Prevalence and Age Distribution of Human
+Papillomavirus Infection in a Population
+of Inuit Women in Nunavik, Quebec",prospective,2007,Americas,North America,Canada,"Nunavik, Quebec",Both,Predominantly normal ,Conventional ,screening ,"overall, HR-HPV, 16/18",PGMY09/11,121,24,11,"16,18",2.95,0.024380165,"HPV types 16 or 18 were detected in 2.2% in ages 50-59 y, and
+3.1% in ages 60-69 y"
+43HG,"He et al., 2019","Distribution of high-risk HPV types among
+women in Sichuan province, China: a crosssectional
+study",cross-sectional ,2016,Asia ,Eastern Asia,China ,Sichuan,Both,Predominantly normal ,LBC,screening,HR-HPV; 16/18; 31/45/52/58; 26/35/39/51/53/56/59/66/68/82,GP5+/GP6+,4808,NA,562,"16,18",91.7,0.019072379,Figure 2 for N breakdown by age group; Figure 1 total HR-HPV prevalence; Figure for specific genotype prevalence
+43HG,"He et al., 2019","Distribution of high-risk HPV types among
+women in Sichuan province, China: a crosssectional
+study",cross-sectional ,2016,Asia ,Eastern Asia,China ,Sichuan,Both,Predominantly normal ,LBC,screening,HR-HPV; 16/18; 31/45/52/58; 26/35/39/51/53/56/59/66/68/82,GP5+/GP6+,4808,NA,562,31/45/52/58,266.3,0.055386855,Figure 2 for N breakdown by age group; Figure 1 total HR-HPV prevalence; Figure for specific genotype prevalence
+43HG,"He et al., 2019","Distribution of high-risk HPV types among
+women in Sichuan province, China: a crosssectional
+study",cross-sectional ,2016,Asia ,Eastern Asia,China ,Sichuan,Both,Predominantly normal ,LBC,screening,HR-HPV; 16/18; 31/45/52/58; 26/35/39/51/53/56/59/66/68/82,GP5+/GP6+,4808,NA,562,26/35/39/51/53/56/59/66/68/82,340.04,0.070723794,Figure 2 for N breakdown by age group; Figure 1 total HR-HPV prevalence; Figure for specific genotype prevalence
+49OHG,"Herrero et al., 2005","Epidemiologic Profile of Type-Specific Human
+Papillomavirus Infection and Cervical Neoplasia
+in Guanacaste, Costa Rica",prospective ,1994,Americas,Central America,Costa Rica,Guancaste,Both,Predominantly normal ,Conventional ,general population,"overall, HR-HPV, 16, 18, 26,  31, 33, 35, 39,
+45, 51, 52, 56, 58, 59, 66, 68, 73, 82",MY09/11,1603,456,195,16,43.229,0.026967561,Table 1
+49OHG,"Herrero et al., 2005","Epidemiologic Profile of Type-Specific Human
+Papillomavirus Infection and Cervical Neoplasia
+in Guanacaste, Costa Rica",prospective ,1994,Americas,Central America,Costa Rica,Guancaste,Both,Predominantly normal ,Conventional ,general population,"overall, HR-HPV, 16, 18, 26,  31, 33, 35, 39,
+45, 51, 52, 56, 58, 59, 66, 68, 73, 82",MY09/11,1603,456,195,18,23.237,0.014495945,Table 1
+49OHG,"Herrero et al., 2005","Epidemiologic Profile of Type-Specific Human
+Papillomavirus Infection and Cervical Neoplasia
+in Guanacaste, Costa Rica",prospective ,1994,Americas,Central America,Costa Rica,Guancaste,Both,Predominantly normal ,Conventional ,general population,"overall, HR-HPV, 16, 18, 26,  31, 33, 35, 39,
+45, 51, 52, 56, 58, 59, 66, 68, 73, 82",MY09/11,1603,456,195,26,4.001,0.002495945,Table 1
+49OHG,"Herrero et al., 2005","Epidemiologic Profile of Type-Specific Human
+Papillomavirus Infection and Cervical Neoplasia
+in Guanacaste, Costa Rica",prospective ,1994,Americas,Central America,Costa Rica,Guancaste,Both,Predominantly normal ,Conventional ,general population,"overall, HR-HPV, 16, 18, 26,  31, 33, 35, 39,
+45, 51, 52, 56, 58, 59, 66, 68, 73, 82",MY09/11,1603,456,195,31,18.415,0.011487835,Table 1
+49OHG,"Herrero et al., 2005","Epidemiologic Profile of Type-Specific Human
+Papillomavirus Infection and Cervical Neoplasia
+in Guanacaste, Costa Rica",prospective ,1994,Americas,Central America,Costa Rica,Guancaste,Both,Predominantly normal ,Conventional ,general population,"overall, HR-HPV, 16, 18, 26,  31, 33, 35, 39,
+45, 51, 52, 56, 58, 59, 66, 68, 73, 82",MY09/11,1603,456,195,33,13.606,0.008487835,Table 1
+49OHG,"Herrero et al., 2005","Epidemiologic Profile of Type-Specific Human
+Papillomavirus Infection and Cervical Neoplasia
+in Guanacaste, Costa Rica",prospective ,1994,Americas,Central America,Costa Rica,Guancaste,Both,Predominantly normal ,Conventional ,general population,"overall, HR-HPV, 16, 18, 26,  31, 33, 35, 39,
+45, 51, 52, 56, 58, 59, 66, 68, 73, 82",MY09/11,1603,456,195,35,8.784,0.005479726,Table 1
+49OHG,"Herrero et al., 2005","Epidemiologic Profile of Type-Specific Human
+Papillomavirus Infection and Cervical Neoplasia
+in Guanacaste, Costa Rica",prospective ,1994,Americas,Central America,Costa Rica,Guancaste,Both,Predominantly normal ,Conventional ,general population,"overall, HR-HPV, 16, 18, 26,  31, 33, 35, 39,
+45, 51, 52, 56, 58, 59, 66, 68, 73, 82",MY09/11,1603,456,195,39,6.399,0.00399189,Table 1
+49OHG,"Herrero et al., 2005","Epidemiologic Profile of Type-Specific Human
+Papillomavirus Infection and Cervical Neoplasia
+in Guanacaste, Costa Rica",prospective ,1994,Americas,Central America,Costa Rica,Guancaste,Both,Predominantly normal ,Conventional ,general population,"overall, HR-HPV, 16, 18, 26,  31, 33, 35, 39,
+45, 51, 52, 56, 58, 59, 66, 68, 73, 82",MY09/11,1603,456,195,45,9.618,0.006,Table 1
+49OHG,"Herrero et al., 2005","Epidemiologic Profile of Type-Specific Human
+Papillomavirus Infection and Cervical Neoplasia
+in Guanacaste, Costa Rica",prospective ,1994,Americas,Central America,Costa Rica,Guancaste,Both,Predominantly normal ,Conventional ,general population,"overall, HR-HPV, 16, 18, 26,  31, 33, 35, 39,
+45, 51, 52, 56, 58, 59, 66, 68, 73, 82",MY09/11,1603,456,195,51,29.662,0.018504055,Table 1
+49OHG,"Herrero et al., 2005","Epidemiologic Profile of Type-Specific Human
+Papillomavirus Infection and Cervical Neoplasia
+in Guanacaste, Costa Rica",prospective ,1994,Americas,Central America,Costa Rica,Guancaste,Both,Predominantly normal ,Conventional ,general population,"overall, HR-HPV, 16, 18, 26,  31, 33, 35, 39,
+45, 51, 52, 56, 58, 59, 66, 68, 73, 82",MY09/11,1603,456,195,52,22.416,0.01398378,Table 1
+49OHG,"Herrero et al., 2005","Epidemiologic Profile of Type-Specific Human
+Papillomavirus Infection and Cervical Neoplasia
+in Guanacaste, Costa Rica",prospective ,1994,Americas,Central America,Costa Rica,Guancaste,Both,Predominantly normal ,Conventional ,general population,"overall, HR-HPV, 16, 18, 26,  31, 33, 35, 39,
+45, 51, 52, 56, 58, 59, 66, 68, 73, 82",MY09/11,1603,456,195,56,16.825,0.010495945,Table 1
+49OHG,"Herrero et al., 2005","Epidemiologic Profile of Type-Specific Human
+Papillomavirus Infection and Cervical Neoplasia
+in Guanacaste, Costa Rica",prospective ,1994,Americas,Central America,Costa Rica,Guancaste,Both,Predominantly normal ,Conventional ,general population,"overall, HR-HPV, 16, 18, 26,  31, 33, 35, 39,
+45, 51, 52, 56, 58, 59, 66, 68, 73, 82",MY09/11,1603,456,195,58,24.032,0.01499189,Table 1
+49OHG,"Herrero et al., 2005","Epidemiologic Profile of Type-Specific Human
+Papillomavirus Infection and Cervical Neoplasia
+in Guanacaste, Costa Rica",prospective ,1994,Americas,Central America,Costa Rica,Guancaste,Both,Predominantly normal ,Conventional ,general population,"overall, HR-HPV, 16, 18, 26,  31, 33, 35, 39,
+45, 51, 52, 56, 58, 59, 66, 68, 73, 82",MY09/11,1603,456,195,59,4.027,0.002512165,Table 1
+49OHG,"Herrero et al., 2005","Epidemiologic Profile of Type-Specific Human
+Papillomavirus Infection and Cervical Neoplasia
+in Guanacaste, Costa Rica",prospective ,1994,Americas,Central America,Costa Rica,Guancaste,Both,Predominantly normal ,Conventional ,general population,"overall, HR-HPV, 16, 18, 26,  31, 33, 35, 39,
+45, 51, 52, 56, 58, 59, 66, 68, 73, 82",MY09/11,1603,456,195,66,6.386,0.00398378,Table 1
+49OHG,"Herrero et al., 2005","Epidemiologic Profile of Type-Specific Human
+Papillomavirus Infection and Cervical Neoplasia
+in Guanacaste, Costa Rica",prospective ,1994,Americas,Central America,Costa Rica,Guancaste,Both,Predominantly normal ,Conventional ,general population,"overall, HR-HPV, 16, 18, 26,  31, 33, 35, 39,
+45, 51, 52, 56, 58, 59, 66, 68, 73, 82",MY09/11,1603,456,195,68,4.027,0.002512165,Table 1
+49OHG,"Herrero et al., 2005","Epidemiologic Profile of Type-Specific Human
+Papillomavirus Infection and Cervical Neoplasia
+in Guanacaste, Costa Rica",prospective ,1994,Americas,Central America,Costa Rica,Guancaste,Both,Predominantly normal ,Conventional ,general population,"overall, HR-HPV, 16, 18, 26,  31, 33, 35, 39,
+45, 51, 52, 56, 58, 59, 66, 68, 73, 82",MY09/11,1603,456,195,73,10.4,0.006487835,Table 1
+49OHG,"Herrero et al., 2005","Epidemiologic Profile of Type-Specific Human
+Papillomavirus Infection and Cervical Neoplasia
+in Guanacaste, Costa Rica",prospective ,1994,Americas,Central America,Costa Rica,Guancaste,Both,Predominantly normal ,Conventional ,general population,"overall, HR-HPV, 16, 18, 26,  31, 33, 35, 39,
+45, 51, 52, 56, 58, 59, 66, 68, 73, 82",MY09/11,1603,456,195,82,8.015,0.005,Table 1
+51OHG,"Hooi et al., 2018","Human papillomavirus (HPV) prevalence and
+associated risk factors in women from
+CuracËao",cross-sectional ,NA,Americas,Caribbean,Curaçao,NA,Both,Predominantly normal ,Conventional ,general population,"overall, HR-HPV, 16/18",GP5+/GP6+,305,52,27,16/18,5.978,0.0196,"Table 2 for prevalence by age group, overall, and all subtypes; Figure 1 for HRHPV and HPV 16/18 (with Plot digitizer)"
+48HG,"Choi et al., 2015","The Clinical Performance of Primary HPV Screening,
+Primary HPV Screening Plus Cytology Cotesting, and
+Cytology Alone at a Tertiary Care Hospital",cross-sectional ,2012,Asia,Eastern Asia,South Korea,Ansan,Both,Predominantly normal ,LBC,screening,"HR-HPV, 16/18",multiple,289,NA,66,16/18,16,0.055363322,Table 4 for prevalence by age group and HR-HPV and HPV16/18
+52OHG,"Jiang et al., 2011","Type-specific prevalence of Human Papillomavirus infection among women in the Northwest Territories, Canada",cross-sectional ,2009,Americas,North America,Canada,Northwest Territories,Both ,Predominantly normal ,LBC,screening ,"overall, HR-HPV, 16/18",PGMY09/11 and GP5+/GP6+,913,135,94,16/18,13.81,0.015125958,table 2
+56OHGP,"Kjaer et al., 2008","Population-based prevalence, type- and age-specific distribution of HPV in
+women before introduction of an HPV-vaccination program in Denmark",cross-sectional ,2005,Europe,Northern Europe,Denmark,Copenhagen,Both,Predominantly normal ,LBC,screening,"overall, HR-HPV, 16/18",HC2,NA,NA,NA,16/18,NA,0.01355,"N is not provided for the age groups but overall prevalence is provided  by age group (50-54, 55-59, 60-64, 65+) from which a crude overall prevalence is calculated by added up all the prevalence rates, divide the sum by the total number of groups (N) to calculate the crude overall prevalence."
+57OHG,"Klug et al., 2007",Prevalence of Human Papillomavirus Types in Women Screened by Cytology in Germany,cross-sectional ,2000,Europe,Western Europe,Germany,Southern and Northern Germany,Both,Predominantly normal ,LBC,screening,"overall, HR-HPV, 16, 18, 31, 33, 35, 39, 45, 51, 52, 56, 58, 59, 66",PGMY09/11 ,1735,44,33,16,10,0.005763689,"Results from Table 1  by age group *55-64, 65+) and genotype"
+57OHG,"Klug et al., 2007",Prevalence of Human Papillomavirus Types in Women Screened by Cytology in Germany,cross-sectional ,2000,Europe,Western Europe,Germany,Southern and Northern Germany,Both,Predominantly normal ,LBC,screening,"overall, HR-HPV, 16, 18, 31, 33, 35, 39, 45, 51, 52, 56, 58, 59, 66",PGMY09/11 ,1735,44,33,18,1,0.000576369,"Results from Table 1  by age group *55-64, 65+) and genotype"
+57OHG,"Klug et al., 2007",Prevalence of Human Papillomavirus Types in Women Screened by Cytology in Germany,cross-sectional ,2000,Europe,Western Europe,Germany,Southern and Northern Germany,Both,Predominantly normal ,LBC,screening,"overall, HR-HPV, 16, 18, 31, 33, 35, 39, 45, 51, 52, 56, 58, 59, 66",PGMY09/11 ,1735,44,33,31,4,0.002305476,"Results from Table 1  by age group *55-64, 65+) and genotype"
+57OHG,"Klug et al., 2007",Prevalence of Human Papillomavirus Types in Women Screened by Cytology in Germany,cross-sectional ,2000,Europe,Western Europe,Germany,Southern and Northern Germany,Both,Predominantly normal ,LBC,screening,"overall, HR-HPV, 16, 18, 31, 33, 35, 39, 45, 51, 52, 56, 58, 59, 66",PGMY09/11 ,1735,44,33,33,2,0.001152738,"Results from Table 1  by age group *55-64, 65+) and genotype"
+57OHG,"Klug et al., 2007",Prevalence of Human Papillomavirus Types in Women Screened by Cytology in Germany,cross-sectional ,2000,Europe,Western Europe,Germany,Southern and Northern Germany,Both,Predominantly normal ,LBC,screening,"overall, HR-HPV, 16, 18, 31, 33, 35, 39, 45, 51, 52, 56, 58, 59, 66",PGMY09/11 ,1735,44,33,35,0,0,"Results from Table 1  by age group *55-64, 65+) and genotype"
+57OHG,"Klug et al., 2007",Prevalence of Human Papillomavirus Types in Women Screened by Cytology in Germany,cross-sectional ,2000,Europe,Western Europe,Germany,Southern and Northern Germany,Both,Predominantly normal ,LBC,screening,"overall, HR-HPV, 16, 18, 31, 33, 35, 39, 45, 51, 52, 56, 58, 59, 66",PGMY09/11 ,1735,44,33,39,4,0.002305476,"Results from Table 1  by age group *55-64, 65+) and genotype"
+57OHG,"Klug et al., 2007",Prevalence of Human Papillomavirus Types in Women Screened by Cytology in Germany,cross-sectional ,2000,Europe,Western Europe,Germany,Southern and Northern Germany,Both,Predominantly normal ,LBC,screening,"overall, HR-HPV, 16, 18, 31, 33, 35, 39, 45, 51, 52, 56, 58, 59, 66",PGMY09/11 ,1735,44,33,45,4,0.002305476,"Results from Table 1  by age group *55-64, 65+) and genotype"
+57OHG,"Klug et al., 2007",Prevalence of Human Papillomavirus Types in Women Screened by Cytology in Germany,cross-sectional ,2000,Europe,Western Europe,Germany,Southern and Northern Germany,Both,Predominantly normal ,LBC,screening,"overall, HR-HPV, 16, 18, 31, 33, 35, 39, 45, 51, 52, 56, 58, 59, 66",PGMY09/11 ,1735,44,33,51,4,0.002305476,"Results from Table 1  by age group *55-64, 65+) and genotype"
+57OHG,"Klug et al., 2007",Prevalence of Human Papillomavirus Types in Women Screened by Cytology in Germany,cross-sectional ,2000,Europe,Western Europe,Germany,Southern and Northern Germany,Both,Predominantly normal ,LBC,screening,"overall, HR-HPV, 16, 18, 31, 33, 35, 39, 45, 51, 52, 56, 58, 59, 66",PGMY09/11 ,1735,44,33,52,3,0.001729107,"Results from Table 1  by age group *55-64, 65+) and genotype"
+57OHG,"Klug et al., 2007",Prevalence of Human Papillomavirus Types in Women Screened by Cytology in Germany,cross-sectional ,2000,Europe,Western Europe,Germany,Southern and Northern Germany,Both,Predominantly normal ,LBC,screening,"overall, HR-HPV, 16, 18, 31, 33, 35, 39, 45, 51, 52, 56, 58, 59, 66",PGMY09/11 ,1735,44,33,56,1,0.000576369,"Results from Table 1  by age group *55-64, 65+) and genotype"
+57OHG,"Klug et al., 2007",Prevalence of Human Papillomavirus Types in Women Screened by Cytology in Germany,cross-sectional ,2000,Europe,Western Europe,Germany,Southern and Northern Germany,Both,Predominantly normal ,LBC,screening,"overall, HR-HPV, 16, 18, 31, 33, 35, 39, 45, 51, 52, 56, 58, 59, 66",PGMY09/11 ,1735,44,33,58,2,0.001152738,"Results from Table 1  by age group *55-64, 65+) and genotype"
+57OHG,"Klug et al., 2007",Prevalence of Human Papillomavirus Types in Women Screened by Cytology in Germany,cross-sectional ,2000,Europe,Western Europe,Germany,Southern and Northern Germany,Both,Predominantly normal ,LBC,screening,"overall, HR-HPV, 16, 18, 31, 33, 35, 39, 45, 51, 52, 56, 58, 59, 66",PGMY09/11 ,1735,44,33,59,2,0.001152738,"Results from Table 1  by age group *55-64, 65+) and genotype"
+57OHG,"Klug et al., 2007",Prevalence of Human Papillomavirus Types in Women Screened by Cytology in Germany,cross-sectional ,2000,Europe,Western Europe,Germany,Southern and Northern Germany,Both,Predominantly normal ,LBC,screening,"overall, HR-HPV, 16, 18, 31, 33, 35, 39, 45, 51, 52, 56, 58, 59, 66",PGMY09/11 ,1735,44,33,66,2,0.001152738,"Results from Table 1  by age group *55-64, 65+) and genotype"
+50HG,"Kjaer et al., 2013","Carcinogenic HPV prevalence and age-specific type distribution
+in 40,382 women with normal cervical cytology, ASCUS/LSIL,
+HSIL, or cervical cancer: what is the potential for prevention?",cross-sectional ,2005,Europe,Northern Europe,Denmark,Copenhagen,Both,Predominantly normal ,LBC,screening,"HR-HPV, 16, 18, 31, 33, 35, 39, 45, 51, 52, 53, 56, 58, 59, 66, 68",HC2,5718,NA,405,16,69.68,0.012186079,"Results from table 1 by % prevalence for genotype  x N of age group (55-64, 65 +), and then summed"
+50HG,"Kjaer et al., 2013","Carcinogenic HPV prevalence and age-specific type distribution
+in 40,382 women with normal cervical cytology, ASCUS/LSIL,
+HSIL, or cervical cancer: what is the potential for prevention?",cross-sectional ,2005,Europe,Northern Europe,Denmark,Copenhagen,Both,Predominantly normal ,LBC,screening,"HR-HPV, 16, 18, 31, 33, 35, 39, 45, 51, 52, 53, 56, 58, 59, 66, 68",HC2,5718,NA,405,18,27.52,0.004812872,"Results from table 1 by % prevalence for genotype  x N of age group (55-64, 65 +), and then summed"
+50HG,"Kjaer et al., 2013","Carcinogenic HPV prevalence and age-specific type distribution
+in 40,382 women with normal cervical cytology, ASCUS/LSIL,
+HSIL, or cervical cancer: what is the potential for prevention?",cross-sectional ,2005,Europe,Northern Europe,Denmark,Copenhagen,Both,Predominantly normal ,LBC,screening,"HR-HPV, 16, 18, 31, 33, 35, 39, 45, 51, 52, 53, 56, 58, 59, 66, 68",HC2,5718,NA,405,31,50.77,0.008878979,"Results from table 1 by % prevalence for genotype  x N of age group (55-64, 65 +), and then summed"
+50HG,"Kjaer et al., 2013","Carcinogenic HPV prevalence and age-specific type distribution
+in 40,382 women with normal cervical cytology, ASCUS/LSIL,
+HSIL, or cervical cancer: what is the potential for prevention?",cross-sectional ,2005,Europe,Northern Europe,Denmark,Copenhagen,Both,Predominantly normal ,LBC,screening,"HR-HPV, 16, 18, 31, 33, 35, 39, 45, 51, 52, 53, 56, 58, 59, 66, 68",HC2,5718,NA,405,33,23.25,0.004066107,"Results from table 1 by % prevalence for genotype  x N of age group (55-64, 65 +), and then summed"
+50HG,"Kjaer et al., 2013","Carcinogenic HPV prevalence and age-specific type distribution
+in 40,382 women with normal cervical cytology, ASCUS/LSIL,
+HSIL, or cervical cancer: what is the potential for prevention?",cross-sectional ,2005,Europe,Northern Europe,Denmark,Copenhagen,Both,Predominantly normal ,LBC,screening,"HR-HPV, 16, 18, 31, 33, 35, 39, 45, 51, 52, 53, 56, 58, 59, 66, 68",HC2,5718,NA,405,35,12.5,0.002186079,"Results from table 1 by % prevalence for genotype  x N of age group (55-64, 65 +), and then summed"
+50HG,"Kjaer et al., 2013","Carcinogenic HPV prevalence and age-specific type distribution
+in 40,382 women with normal cervical cytology, ASCUS/LSIL,
+HSIL, or cervical cancer: what is the potential for prevention?",cross-sectional ,2005,Europe,Northern Europe,Denmark,Copenhagen,Both,Predominantly normal ,LBC,screening,"HR-HPV, 16, 18, 31, 33, 35, 39, 45, 51, 52, 53, 56, 58, 59, 66, 68",HC2,5718,NA,405,39,30.03,0.005251836,"Results from table 1 by % prevalence for genotype  x N of age group (55-64, 65 +), and then summed"
+50HG,"Kjaer et al., 2013","Carcinogenic HPV prevalence and age-specific type distribution
+in 40,382 women with normal cervical cytology, ASCUS/LSIL,
+HSIL, or cervical cancer: what is the potential for prevention?",cross-sectional ,2005,Europe,Northern Europe,Denmark,Copenhagen,Both,Predominantly normal ,LBC,screening,"HR-HPV, 16, 18, 31, 33, 35, 39, 45, 51, 52, 53, 56, 58, 59, 66, 68",HC2,5718,NA,405,45,34.68,0.006065058,"Results from table 1 by % prevalence for genotype  x N of age group (55-64, 65 +), and then summed"
+50HG,"Kjaer et al., 2013","Carcinogenic HPV prevalence and age-specific type distribution
+in 40,382 women with normal cervical cytology, ASCUS/LSIL,
+HSIL, or cervical cancer: what is the potential for prevention?",cross-sectional ,2005,Europe,Northern Europe,Denmark,Copenhagen,Both,Predominantly normal ,LBC,screening,"HR-HPV, 16, 18, 31, 33, 35, 39, 45, 51, 52, 53, 56, 58, 59, 66, 68",HC2,5718,NA,405,51,50.394,0.008813221,"Results from table 1 by % prevalence for genotype  x N of age group (55-64, 65 +), and then summed"
+50HG,"Kjaer et al., 2013","Carcinogenic HPV prevalence and age-specific type distribution
+in 40,382 women with normal cervical cytology, ASCUS/LSIL,
+HSIL, or cervical cancer: what is the potential for prevention?",cross-sectional ,2005,Europe,Northern Europe,Denmark,Copenhagen,Both,Predominantly normal ,LBC,screening ,"HR-HPV, 16, 18, 31, 33, 35, 39, 45, 51, 52, 53, 56, 58, 59, 66, 68",HC2,5718,NA,405,52,66.85,0.011691151,"Results from table 1 by % prevalence for genotype  x N of age group (55-64, 65 +), and then summed"
+50HG,"Kjaer et al., 2013","Carcinogenic HPV prevalence and age-specific type distribution
+in 40,382 women with normal cervical cytology, ASCUS/LSIL,
+HSIL, or cervical cancer: what is the potential for prevention?",cross-sectional ,2005,Europe,Northern Europe,Denmark,Copenhagen,Both,Predominantly normal ,LBC,screening,"HR-HPV, 16, 18, 31, 33, 35, 39, 45, 51, 52, 53, 56, 58, 59, 66, 68",HC2,5718,NA,405,53,31.1,0.005438965,"Results from table 1 by % prevalence for genotype  x N of age group (55-64, 65 +), and then summed"
+50HG,"Kjaer et al., 2013","Carcinogenic HPV prevalence and age-specific type distribution
+in 40,382 women with normal cervical cytology, ASCUS/LSIL,
+HSIL, or cervical cancer: what is the potential for prevention?",cross-sectional ,2005,Europe,Northern Europe,Denmark,Copenhagen,Both,Predominantly normal ,LBC,screening,"HR-HPV, 16, 18, 31, 33, 35, 39, 45, 51, 52, 53, 56, 58, 59, 66, 68",HC2,5718,NA,405,56,43.6,0.007625044,"Results from table 1 by % prevalence for genotype  x N of age group (55-64, 65 +), and then summed"
+50HG,"Kjaer et al., 2013","Carcinogenic HPV prevalence and age-specific type distribution
+in 40,382 women with normal cervical cytology, ASCUS/LSIL,
+HSIL, or cervical cancer: what is the potential for prevention?",cross-sectional ,2005,Europe,Northern Europe,Denmark,Copenhagen,Both,Predominantly normal ,LBC,screening,"HR-HPV, 16, 18, 31, 33, 35, 39, 45, 51, 52, 53, 56, 58, 59, 66, 68",HC2,5718,NA,405,58,18.22,0.003186429,"Results from table 1 by % prevalence for genotype  x N of age group (55-64, 65 +), and then summed"
+50HG,"Kjaer et al., 2013","Carcinogenic HPV prevalence and age-specific type distribution
+in 40,382 women with normal cervical cytology, ASCUS/LSIL,
+HSIL, or cervical cancer: what is the potential for prevention?",cross-sectional ,2005,Europe,Northern Europe,Denmark,Copenhagen,Both,Predominantly normal ,LBC,screening,"HR-HPV, 16, 18, 31, 33, 35, 39, 45, 51, 52, 53, 56, 58, 59, 66, 68",HC2,5718,NA,405,59,16.08,0.002812172,"Results from table 1 by % prevalence for genotype  x N of age group (55-64, 65 +), and then summed"
+50HG,"Kjaer et al., 2013","Carcinogenic HPV prevalence and age-specific type distribution
+in 40,382 women with normal cervical cytology, ASCUS/LSIL,
+HSIL, or cervical cancer: what is the potential for prevention?",cross-sectional ,2005,Europe,Northern Europe,Denmark,Copenhagen,Both,Predominantly normal ,LBC,screening,"HR-HPV, 16, 18, 31, 33, 35, 39, 45, 51, 52, 53, 56, 58, 59, 66, 68",HC2,5718,NA,405,66,45.74,0.0079993,"Results from table 1 by % prevalence for genotype  x N of age group (55-64, 65 +), and then summed"
+50HG,"Kjaer et al., 2013","Carcinogenic HPV prevalence and age-specific type distribution
+in 40,382 women with normal cervical cytology, ASCUS/LSIL,
+HSIL, or cervical cancer: what is the potential for prevention?",cross-sectional ,2005,Europe,Northern Europe,Denmark,Copenhagen,Both,Predominantly normal ,LBC,screening,"HR-HPV, 16, 18, 31, 33, 35, 39, 45, 51, 52, 53, 56, 58, 59, 66, 68",HC2,5718,NA,405,68,38.95,0.006811822,"Results from table 1 by % prevalence for genotype  x N of age group (55-64, 65 +), and then summed"
+58OHG,"Kobetz et al., 2012","Burden of Human Papillomavirus among Haitian Immigrants in Miami, Florida: Community-Based Participatory Research in Action",cross-sectional ,2008,Americas,North America,USA,"Little Haiti, Miami",Both ,Predominantly normal ,LBC,general population,"overall, HR-HPV, 16/18",PCR L1 or E1,54,10,5,16/18,0,0,"Figure 2 for age specific prevalence of HPV by overall point prevalence, HR and types 16/18"
+52HG,"Laowahutanont et al., 2014","Prevalence of High Risk Human Papillomavirus Infection with Different Cervical Cytological Features among Women
+Undergoing Health Examination at the National Cancer Institute, Thailand",cross-sectional ,2011,Asia ,Southeastern asia,Thailand,NA,Both,Predominantly normal ,LBC,screening,"HR-HPV, 16, 18 ",other PCR,33,NA,4,16,1,0.03030303,"Table 1 for HPV prevalence by age group 60 +  Hr-HPV+, type 16 and type 18"
+52HG,"Laowahutanont et al., 2014","Prevalence of High Risk Human Papillomavirus Infection with Different Cervical Cytological Features among Women
+Undergoing Health Examination at the National Cancer Institute, Thailand",cross-sectional ,2011,Asia ,Southeastern asia,Thailand,NA,Both,Predominantly normal ,LBC,screening,"HR-HPV, 16, 18 ",other PCR,33,NA,4,18,1,0.03030303,"Table 1 for HPV prevalence by age group 60 +  Hr-HPV+, type 16 and type 18"
+59OHG,"Lee et al., 2012","Prevalence and Distribution of Human Papillomavirus Infection
+in Korean Women as Determined by Restriction Fragment Mass
+Polymorphism Assay",cross-sectional ,2011,Asia,Eastern Asia,South Korea,Seoul,Both,Predominantly normal ,LBC,screening,"overall, HR-HPV, 16, 18, 31, 33, 35, 39, 45, 51, 52,
+56, 58, 59, 68",PGMY09/11,18910,6199,2836,16,4995,0.264145955,"Figure 2 for distribution of HR-HPV genotypes by age group, summed prevalence rate for each genotype and age group. Results from table 1 by % prevalence for genotype  x N of age group (50-59, 60-69, 70-79), and then summed"
+59OHG,"Lee et al., 2012","Prevalence and Distribution of Human Papillomavirus Infection
+in Korean Women as Determined by Restriction Fragment Mass
+Polymorphism Assay",cross-sectional ,2011,Asia,Eastern Asia,South Korea,Seoul,Both,Predominantly normal ,LBC,screening,"overall, HR-HPV, 16, 18, 31, 33, 35, 39, 45, 51, 52,
+56, 58, 59, 68",PGMY09/11,18910,6199,2836,18,1340.6,0.070893707,"Figure 2 for distribution of HR-HPV genotypes by age group, summed prevalence rate for each genotype and age group. Results from table 1 by % prevalence for genotype  x N of age group (50-59, 60-69, 70-79), and then summed"
+59OHG,"Lee et al., 2012","Prevalence and Distribution of Human Papillomavirus Infection
+in Korean Women as Determined by Restriction Fragment Mass
+Polymorphism Assay",cross-sectional ,2011,Asia,Eastern Asia,South Korea,Seoul,Both,Predominantly normal ,LBC,screening,"overall, HR-HPV, 16, 18, 31, 33, 35, 39, 45, 51, 52,
+56, 58, 59, 68",PGMY09/11,18910,6199,2836,31,615.6,0.032554204,"Figure 2 for distribution of HR-HPV genotypes by age group, summed prevalence rate for each genotype and age group. Results from table 1 by % prevalence for genotype  x N of age group (50-59, 60-69, 70-79), and then summed"
+59OHG,"Lee et al., 2012","Prevalence and Distribution of Human Papillomavirus Infection
+in Korean Women as Determined by Restriction Fragment Mass
+Polymorphism Assay",cross-sectional ,2011,Asia,Eastern Asia,South Korea,Seoul,Both,Predominantly normal ,LBC,screening,"overall, HR-HPV, 16, 18, 31, 33, 35, 39, 45, 51, 52,
+56, 58, 59, 68",PGMY09/11,18910,6199,2836,33,469.38,0.024821787,"Figure 2 for distribution of HR-HPV genotypes by age group, summed prevalence rate for each genotype and age group. Results from table 1 by % prevalence for genotype  x N of age group (50-59, 60-69, 70-79), and then summed"
+59OHG,"Lee et al., 2012","Prevalence and Distribution of Human Papillomavirus Infection
+in Korean Women as Determined by Restriction Fragment Mass
+Polymorphism Assay",cross-sectional ,2011,Asia,Eastern Asia,South Korea,Seoul,Both,Predominantly normal ,LBC,screening,"overall, HR-HPV, 16, 18, 31, 33, 35, 39, 45, 51, 52,
+56, 58, 59, 68",PGMY09/11,18910,6199,2836,35,695.75,0.036792702,"Figure 2 for distribution of HR-HPV genotypes by age group, summed prevalence rate for each genotype and age group. Results from table 1 by % prevalence for genotype  x N of age group (50-59, 60-69, 70-79), and then summed"
+59OHG,"Lee et al., 2012","Prevalence and Distribution of Human Papillomavirus Infection
+in Korean Women as Determined by Restriction Fragment Mass
+Polymorphism Assay",cross-sectional ,2011,Asia,Eastern Asia,South Korea,Seoul,Both,Predominantly normal ,LBC,screening,"overall, HR-HPV, 16, 18, 31, 33, 35, 39, 45, 51, 52,
+56, 58, 59, 68",PGMY09/11,18910,6199,2836,39,242.7,0.012834479,"Figure 2 for distribution of HR-HPV genotypes by age group, summed prevalence rate for each genotype and age group. Results from table 1 by % prevalence for genotype  x N of age group (50-59, 60-69, 70-79), and then summed"
+59OHG,"Lee et al., 2012","Prevalence and Distribution of Human Papillomavirus Infection
+in Korean Women as Determined by Restriction Fragment Mass
+Polymorphism Assay",cross-sectional ,2011,Asia,Eastern Asia,South Korea,Seoul,Both,Predominantly normal ,LBC,screening,"overall, HR-HPV, 16, 18, 31, 33, 35, 39, 45, 51, 52,
+56, 58, 59, 68",PGMY09/11,18910,6199,2836,45,434.4,0.022971973,"Figure 2 for distribution of HR-HPV genotypes by age group, summed prevalence rate for each genotype and age group. Results from table 1 by % prevalence for genotype  x N of age group (50-59, 60-69, 70-79), and then summed"
+59OHG,"Lee et al., 2012","Prevalence and Distribution of Human Papillomavirus Infection
+in Korean Women as Determined by Restriction Fragment Mass
+Polymorphism Assay",cross-sectional ,2011,Asia,Eastern Asia,South Korea,Seoul,Both,Predominantly normal ,LBC,screening,"overall, HR-HPV, 16, 18, 31, 33, 35, 39, 45, 51, 52,
+56, 58, 59, 68",PGMY09/11,18910,6199,2836,51,758.2,0.040095188,"Figure 2 for distribution of HR-HPV genotypes by age group, summed prevalence rate for each genotype and age group. Results from table 1 by % prevalence for genotype  x N of age group (50-59, 60-69, 70-79), and then summed"
+59OHG,"Lee et al., 2012","Prevalence and Distribution of Human Papillomavirus Infection
+in Korean Women as Determined by Restriction Fragment Mass
+Polymorphism Assay",cross-sectional ,2011,Asia,Eastern Asia,South Korea,Seoul,Both,Predominantly normal ,LBC,screening,"overall, HR-HPV, 16, 18, 31, 33, 35, 39, 45, 51, 52,
+56, 58, 59, 68",PGMY09/11,18910,6199,2836,52,5054.5,0.267292438,"Figure 2 for distribution of HR-HPV genotypes by age group, summed prevalence rate for each genotype and age group. Results from table 1 by % prevalence for genotype  x N of age group (50-59, 60-69, 70-79), and then summed"
+59OHG,"Lee et al., 2012","Prevalence and Distribution of Human Papillomavirus Infection
+in Korean Women as Determined by Restriction Fragment Mass
+Polymorphism Assay",cross-sectional ,2011,Asia,Eastern Asia,South Korea,Seoul,Both,Predominantly normal ,LBC,screening,"overall, HR-HPV, 16, 18, 31, 33, 35, 39, 45, 51, 52,
+56, 58, 59, 68",PGMY09/11,18910,6199,2836,56,1133,0.059915389,"Figure 2 for distribution of HR-HPV genotypes by age group, summed prevalence rate for each genotype and age group. Results from table 1 by % prevalence for genotype  x N of age group (50-59, 60-69, 70-79), and then summed"
+59OHG,"Lee et al., 2012","Prevalence and Distribution of Human Papillomavirus Infection
+in Korean Women as Determined by Restriction Fragment Mass
+Polymorphism Assay",cross-sectional ,2011,Asia,Eastern Asia,South Korea,Seoul,Both,Predominantly normal ,LBC,screening,"overall, HR-HPV, 16, 18, 31, 33, 35, 39, 45, 51, 52,
+56, 58, 59, 68",PGMY09/11,18910,6199,2836,58,2097,0.110893707,"Figure 2 for distribution of HR-HPV genotypes by age group, summed prevalence rate for each genotype and age group. Results from table 1 by % prevalence for genotype  x N of age group (50-59, 60-69, 70-79), and then summed"
+59OHG,"Lee et al., 2012","Prevalence and Distribution of Human Papillomavirus Infection
+in Korean Women as Determined by Restriction Fragment Mass
+Polymorphism Assay",cross-sectional ,2011,Asia,Eastern Asia,South Korea,Seoul,Both,Predominantly normal ,LBC,screening,"overall, HR-HPV, 16, 18, 31, 33, 35, 39, 45, 51, 52,
+56, 58, 59, 68",PGMY09/11,18910,6199,2836,59,175.2,0.009264939,"Figure 2 for distribution of HR-HPV genotypes by age group, summed prevalence rate for each genotype and age group. Results from table 1 by % prevalence for genotype  x N of age group (50-59, 60-69, 70-79), and then summed"
+59OHG,"Lee et al., 2012","Prevalence and Distribution of Human Papillomavirus Infection
+in Korean Women as Determined by Restriction Fragment Mass
+Polymorphism Assay",cross-sectional ,2011,Asia,Eastern Asia,South Korea,Seoul,Both,Predominantly normal ,LBC,screening,"overall, HR-HPV, 16, 18, 31, 33, 35, 39, 45, 51, 52,
+56, 58, 59, 68",PGMY09/11,18910,6199,2836,68,896.3,0.047398202,"Figure 2 for distribution of HR-HPV genotypes by age group, summed prevalence rate for each genotype and age group. Results from table 1 by % prevalence for genotype  x N of age group (50-59, 60-69, 70-79), and then summed"
+60OHG,"Leinonen et al., 2013","Type- and age-specific distribution of human
+papillomavirus in women attending cervical
+cancer screening in Finland",cross-sectional ,2005,Europe,Northern Europe,Finland,NA,Both,Predominantly normal ,LBC,screening,"overall, HR-HPV, 16, 18, 31, 33, 35, 39, 45, 51, 52,
+56, 58, 59, 68",HC2,14663,713,321,16,52.4,0.003573621,"Figure 2 for distribution of HR-HPV genotypes by age group, summed prevalence rate for each genotype and age group. Results from table 1 by % prevalence for genotype  x N of age group (50, 55, 60, 65), and then summed"
+60OHG,"Leinonen et al., 2013","Type- and age-specific distribution of human
+papillomavirus in women attending cervical
+cancer screening in Finland",cross-sectional ,2005,Europe,Northern Europe,Finland,NA,Both,Predominantly normal ,LBC,screening,"overall, HR-HPV, 16, 18, 31, 33, 35, 39, 45, 51, 52,
+56, 58, 59, 68",HC2,14663,713,321,18,14.9,0.001016163,"Figure 2 for distribution of HR-HPV genotypes by age group, summed prevalence rate for each genotype and age group. Results from table 1 by % prevalence for genotype  x N of age group (50, 55, 60, 65), and then summed"
+60OHG,"Leinonen et al., 2013","Type- and age-specific distribution of human
+papillomavirus in women attending cervical
+cancer screening in Finland",cross-sectional ,2005,Europe,Northern Europe,Finland,NA,Both,Predominantly normal ,LBC,screening,"overall, HR-HPV, 16, 18, 31, 33, 35, 39, 45, 51, 52,
+56, 58, 59, 68",HC2,14663,713,321,31,36.2,0.002468799,"Figure 2 for distribution of HR-HPV genotypes by age group, summed prevalence rate for each genotype and age group. Results from table 1 by % prevalence for genotype  x N of age group (50, 55, 60, 65), and then summed"
+60OHG,"Leinonen et al., 2013","Type- and age-specific distribution of human
+papillomavirus in women attending cervical
+cancer screening in Finland",cross-sectional ,2005,Europe,Northern Europe,Finland,NA,Both,Predominantly normal ,LBC,screening,"overall, HR-HPV, 16, 18, 31, 33, 35, 39, 45, 51, 52,
+56, 58, 59, 68",HC2,14663,713,321,33,18.02,0.001228944,"Figure 2 for distribution of HR-HPV genotypes by age group, summed prevalence rate for each genotype and age group. Results from table 1 by % prevalence for genotype  x N of age group (50, 55, 60, 65), and then summed"
+60OHG,"Leinonen et al., 2013","Type- and age-specific distribution of human
+papillomavirus in women attending cervical
+cancer screening in Finland",cross-sectional ,2005,Europe,Northern Europe,Finland,NA,Both,Predominantly normal ,LBC,screening,"overall, HR-HPV, 16, 18, 31, 33, 35, 39, 45, 51, 52,
+56, 58, 59, 68",HC2,14663,713,321,35,18.02,0.001228944,"Figure 2 for distribution of HR-HPV genotypes by age group, summed prevalence rate for each genotype and age group. Results from table 1 by % prevalence for genotype  x N of age group (50, 55, 60, 65), and then summed"
+60OHG,"Leinonen et al., 2013","Type- and age-specific distribution of human
+papillomavirus in women attending cervical
+cancer screening in Finland",cross-sectional ,2005,Europe,Northern Europe,Finland,NA,Both,Predominantly normal ,LBC,screening,"overall, HR-HPV, 16, 18, 31, 33, 35, 39, 45, 51, 52,
+56, 58, 59, 68",HC2,14663,713,321,39,18.02,0.001228944,"Figure 2 for distribution of HR-HPV genotypes by age group, summed prevalence rate for each genotype and age group. Results from table 1 by % prevalence for genotype  x N of age group (50, 55, 60, 65), and then summed"
+60OHG,"Leinonen et al., 2013","Type- and age-specific distribution of human
+papillomavirus in women attending cervical
+cancer screening in Finland",cross-sectional ,2005,Europe,Northern Europe,Finland,NA,Both,Predominantly normal ,LBC,screening,"overall, HR-HPV, 16, 18, 31, 33, 35, 39, 45, 51, 52,
+56, 58, 59, 68",HC2,14663,713,321,45,24.03,0.001638819,"Figure 2 for distribution of HR-HPV genotypes by age group, summed prevalence rate for each genotype and age group. Results from table 1 by % prevalence for genotype  x N of age group (50, 55, 60, 65), and then summed"
+60OHG,"Leinonen et al., 2013","Type- and age-specific distribution of human
+papillomavirus in women attending cervical
+cancer screening in Finland",cross-sectional ,2005,Europe,Northern Europe,Finland,NA,Both,Predominantly normal ,LBC,screening,"overall, HR-HPV, 16, 18, 31, 33, 35, 39, 45, 51, 52,
+56, 58, 59, 68",HC2,14663,713,321,51,18.02,0.001228944,"Figure 2 for distribution of HR-HPV genotypes by age group, summed prevalence rate for each genotype and age group. Results from table 1 by % prevalence for genotype  x N of age group (50, 55, 60, 65), and then summed"
+60OHG,"Leinonen et al., 2013","Type- and age-specific distribution of human
+papillomavirus in women attending cervical
+cancer screening in Finland",cross-sectional ,2005,Europe,Northern Europe,Finland,NA,Both,Predominantly normal ,LBC,screening,"overall, HR-HPV, 16, 18, 31, 33, 35, 39, 45, 51, 52,
+56, 58, 59, 68",HC2,14663,713,321,52,30.2,0.002059606,"Figure 2 for distribution of HR-HPV genotypes by age group, summed prevalence rate for each genotype and age group. Results from table 1 by % prevalence for genotype  x N of age group (50, 55, 60, 65), and then summed"
+60OHG,"Leinonen et al., 2013","Type- and age-specific distribution of human
+papillomavirus in women attending cervical
+cancer screening in Finland",cross-sectional ,2005,Europe,Northern Europe,Finland,NA,Both,Predominantly normal ,LBC,screening,"overall, HR-HPV, 16, 18, 31, 33, 35, 39, 45, 51, 52,
+56, 58, 59, 68",HC2,14663,713,321,56,18.33,0.001250085,"Figure 2 for distribution of HR-HPV genotypes by age group, summed prevalence rate for each genotype and age group. Results from table 1 by % prevalence for genotype  x N of age group (50, 55, 60, 65), and then summed"
+60OHG,"Leinonen et al., 2013","Type- and age-specific distribution of human
+papillomavirus in women attending cervical
+cancer screening in Finland",cross-sectional ,2005,Europe,Northern Europe,Finland,NA,Both,Predominantly normal ,LBC,screening,"overall, HR-HPV, 16, 18, 31, 33, 35, 39, 45, 51, 52,
+56, 58, 59, 68",HC2,14663,713,321,58,24.1,0.001643593,"Figure 2 for distribution of HR-HPV genotypes by age group, summed prevalence rate for each genotype and age group. Results from table 1 by % prevalence for genotype  x N of age group (50, 55, 60, 65), and then summed"
+60OHG,"Leinonen et al., 2013","Type- and age-specific distribution of human
+papillomavirus in women attending cervical
+cancer screening in Finland",cross-sectional ,2005,Europe,Northern Europe,Finland,NA,Both,Predominantly normal ,LBC,screening,"overall, HR-HPV, 16, 18, 31, 33, 35, 39, 45, 51, 52,
+56, 58, 59, 68",HC2,14663,713,321,59,9.22,0.000628794,"Figure 2 for distribution of HR-HPV genotypes by age group, summed prevalence rate for each genotype and age group. Results from table 1 by % prevalence for genotype  x N of age group (50, 55, 60, 65), and then summed"
+60OHG,"Leinonen et al., 2013","Type- and age-specific distribution of human
+papillomavirus in women attending cervical
+cancer screening in Finland",cross-sectional ,2005,Europe,Northern Europe,Finland,NA,Both,Predominantly normal ,LBC,screening,"overall, HR-HPV, 16, 18, 31, 33, 35, 39, 45, 51, 52,
+56, 58, 59, 68",HC2,14663,713,321,68,30.88,0.002105981,"Figure 2 for distribution of HR-HPV genotypes by age group, summed prevalence rate for each genotype and age group. Results from table 1 by % prevalence for genotype  x N of age group (50, 55, 60, 65), and then summed"
+53HG,"Li et al., 2020","Prevalence and Genotype Distribution of High-Risk Human Papillomavirus
+among Chinese Women in Sichuan Province",retrospective,2017,Asia,Eastern Asia,China,Sichuan,Both,Predominantly normal ,LBC,clinical setting ,"overall, HR-HPV, 16, 18, 31, 33, 35, 39, 45, 51, 52,
+56, 58, 59, 66, 68, 82",other PCR,276,NA,80,16,43.3,0.156884058,Figure 3 distribution fo HPV genotypes by age
+53HG,"Li et al., 2020","Prevalence and Genotype Distribution of High-Risk Human Papillomavirus
+among Chinese Women in Sichuan Province",retrospective,2017,Asia,Eastern Asia,China,Sichuan,Both,Predominantly normal ,LBC,clinical setting ,"overall, HR-HPV, 16, 18, 31, 33, 35, 39, 45, 51, 52,
+56, 58, 59, 66, 68, 82",other PCR,276,NA,80,18,13.6,0.049275362,Figure 3 distribution fo HPV genotypes by age
+53HG,"Li et al., 2020","Prevalence and Genotype Distribution of High-Risk Human Papillomavirus
+among Chinese Women in Sichuan Province",retrospective,2017,Asia,Eastern Asia,China,Sichuan,Both,Predominantly normal ,LBC,clinical setting ,"overall, HR-HPV, 16, 18, 31, 33, 35, 39, 45, 51, 52,
+56, 58, 59, 66, 68, 82",other PCR,276,NA,80,31,13.6,0.049275362,Figure 3 distribution fo HPV genotypes by age
+53HG,"Li et al., 2020","Prevalence and Genotype Distribution of High-Risk Human Papillomavirus
+among Chinese Women in Sichuan Province",retrospective,2017,Asia,Eastern Asia,China,Sichuan,Both,Predominantly normal ,LBC,clinical setting ,"overall, HR-HPV, 16, 18, 31, 33, 35, 39, 45, 51, 52,
+56, 58, 59, 66, 68, 82",other PCR,276,NA,80,33,8.03,0.029094203,Figure 3 distribution fo HPV genotypes by age
+53HG,"Li et al., 2020","Prevalence and Genotype Distribution of High-Risk Human Papillomavirus
+among Chinese Women in Sichuan Province",retrospective,2017,Asia,Eastern Asia,China,Sichuan,Both,Predominantly normal ,LBC,clinical setting ,"overall, HR-HPV, 16, 18, 31, 33, 35, 39, 45, 51, 52,
+56, 58, 59, 66, 68, 82",other PCR,276,NA,80,35,8.03,0.029094203,Figure 3 distribution fo HPV genotypes by age
+53HG,"Li et al., 2020","Prevalence and Genotype Distribution of High-Risk Human Papillomavirus
+among Chinese Women in Sichuan Province",retrospective,2017,Asia,Eastern Asia,China,Sichuan,Both,Predominantly normal ,LBC,clinical setting ,"overall, HR-HPV, 16, 18, 31, 33, 35, 39, 45, 51, 52,
+56, 58, 59, 66, 68, 82",other PCR,276,NA,80,39,24.28,0.087971014,Figure 3 distribution fo HPV genotypes by age
+53HG,"Li et al., 2020","Prevalence and Genotype Distribution of High-Risk Human Papillomavirus
+among Chinese Women in Sichuan Province",retrospective,2017,Asia,Eastern Asia,China,Sichuan,Both,Predominantly normal ,LBC,clinical setting ,"overall, HR-HPV, 16, 18, 31, 33, 35, 39, 45, 51, 52,
+56, 58, 59, 66, 68, 82",other PCR,276,NA,80,45,2.59,0.009384058,Figure 3 distribution fo HPV genotypes by age
+53HG,"Li et al., 2020","Prevalence and Genotype Distribution of High-Risk Human Papillomavirus
+among Chinese Women in Sichuan Province",retrospective,2017,Asia,Eastern Asia,China,Sichuan,Both,Predominantly normal ,LBC,clinical setting ,"overall, HR-HPV, 16, 18, 31, 33, 35, 39, 45, 51, 52,
+56, 58, 59, 66, 68, 82",other PCR,276,NA,80,51,16.25,0.058876812,Figure 3 distribution fo HPV genotypes by age
+53HG,"Li et al., 2020","Prevalence and Genotype Distribution of High-Risk Human Papillomavirus
+among Chinese Women in Sichuan Province",retrospective,2017,Asia,Eastern Asia,China,Sichuan,Both,Predominantly normal ,LBC,clinical setting ,"overall, HR-HPV, 16, 18, 31, 33, 35, 39, 45, 51, 52,
+56, 58, 59, 66, 68, 82",other PCR,276,NA,80,52,56.8,0.205797101,Figure 3 distribution fo HPV genotypes by age
+53HG,"Li et al., 2020","Prevalence and Genotype Distribution of High-Risk Human Papillomavirus
+among Chinese Women in Sichuan Province",retrospective,2017,Asia,Eastern Asia,China,Sichuan,Both,Predominantly normal ,LBC,clinical setting ,"overall, HR-HPV, 16, 18, 31, 33, 35, 39, 45, 51, 52,
+56, 58, 59, 66, 68, 82",other PCR,276,NA,80,56,29.7,0.107608696,Figure 3 distribution fo HPV genotypes by age
+53HG,"Li et al., 2020","Prevalence and Genotype Distribution of High-Risk Human Papillomavirus
+among Chinese Women in Sichuan Province",retrospective,2017,Asia,Eastern Asia,China,Sichuan,Both,Predominantly normal ,LBC,clinical setting ,"overall, HR-HPV, 16, 18, 31, 33, 35, 39, 45, 51, 52,
+56, 58, 59, 66, 68, 82",other PCR,276,NA,80,58,21.6,0.07826087,Figure 3 distribution fo HPV genotypes by age
+53HG,"Li et al., 2020","Prevalence and Genotype Distribution of High-Risk Human Papillomavirus
+among Chinese Women in Sichuan Province",retrospective,2017,Asia,Eastern Asia,China,Sichuan,Both,Predominantly normal ,LBC,clinical setting ,"overall, HR-HPV, 16, 18, 31, 33, 35, 39, 45, 51, 52,
+56, 58, 59, 66, 68, 82",other PCR,276,NA,80,59,16.25,0.058876812,Figure 3 distribution fo HPV genotypes by age
+53HG,"Li et al., 2020","Prevalence and Genotype Distribution of High-Risk Human Papillomavirus
+among Chinese Women in Sichuan Province",retrospective,2017,Asia,Eastern Asia,China,Sichuan,Both,Predominantly normal ,LBC,clinical setting ,"overall, HR-HPV, 16, 18, 31, 33, 35, 39, 45, 51, 52,
+56, 58, 59, 66, 68, 82",other PCR,276,NA,80,66,5.6,0.020289855,Figure 3 distribution fo HPV genotypes by age
+53HG,"Li et al., 2020","Prevalence and Genotype Distribution of High-Risk Human Papillomavirus
+among Chinese Women in Sichuan Province",retrospective,2017,Asia,Eastern Asia,China,Sichuan,Both,Predominantly normal ,LBC,clinical setting ,"overall, HR-HPV, 16, 18, 31, 33, 35, 39, 45, 51, 52,
+56, 58, 59, 66, 68, 82",other PCR,276,NA,80,68,13.6,0.049275362,Figure 3 distribution fo HPV genotypes by age
+53HG,"Li et al., 2020","Prevalence and Genotype Distribution of High-Risk Human Papillomavirus
+among Chinese Women in Sichuan Province",retrospective,2017,Asia,Eastern Asia,China,Sichuan,Both,Predominantly normal ,LBC,clinical setting ,"overall, HR-HPV, 16, 18, 31, 33, 35, 39, 45, 51, 52,
+56, 58, 59, 66, 68, 82",other PCR,276,NA,80,82,2.6,0.00942029,Figure 3 distribution fo HPV genotypes by age
+54HG,"Li et al., 2006","Human papillomavirus infection in Shenyang City, People’s Republic of China: a population-based study",cross-sectional ,2005,Asia,Eastern Asia,China,Shenyang,Both,Predominantly normal ,LBC,general population," HR-HPV, 16/18",GP5+/GP6+,93,NA,5,16/18,0.957,0.010290323,Figure 1 distribution of HPV genotypes by age
+66OHGP,"Marais et al., 2008",Cervical human papillomavirus (HPV) infection and HPV type 16 antibodies in South African women,case control ,2006,Africa,Southern Africa,South Africa,Cape Town,Both,Predominantly normal ,conventional,controls,"overall, HR-HPV, 16",other PCR,NA,NA,NA,16,NA,0.0233,"% prevalence of HPV 16 by age group reported in Figure 1,  however the N for each age group was not provided"
+67OHG,"Moore et al., 2009","Prevalence and type distribution of human papillomavirus
+in 5,000 British Columbia women—implications for vaccination",cross-sectional ,2004,Americas,North America,Canada,British Columbia,Both,Predominantly normal ,LBC,screening ,"overall, HR-HPV, 16,18, 16/18",GP5+/GP6+,1138,132,116,16/18,108,0.094923692, study sample by age  in table 4; and plot digitizer on figure 2a for HPV 16/18 by age group 
+67OHG,"Moore et al., 2009","Prevalence and type distribution of human papillomavirus
+in 5,000 British Columbia women—implications for vaccination",cross-sectional ,2004,Americas,North America,Canada,British Columbia,Both,Predominantly normal ,LBC,screening ,"overall, HR-HPV, 16,18, 16/18",GP5+/GP6+,1138,132,116,16,102.4,0.090001723, study sample by age  in table 4; and plot digitizer on figure 2b for HPV 16  by age group 
+67OHG,"Moore et al., 2009","Prevalence and type distribution of human papillomavirus
+in 5,000 British Columbia women—implications for vaccination",cross-sectional ,2004,Americas,North America,Canada,British Columbia,Both,Predominantly normal ,LBC,screening ,"overall, HR-HPV, 16,18, 16/18",GP5+/GP6+,1138,132,116,18,30.7,0.026982938, study sample by age  in table 4; and plot digitizer on figure 2b for HPV 18  by age group 
+68OHG,"Mudderis et al., 2019",HPV genotype distribution among women with normal and abnormal cervical cytology in Turkey,retrospective,2015,Asia,Western Asia,Turkiye,NA,Both ,Predominantly normal ,LBC,clinical setting ,"overall, HR-HPV, 16, 18, 31, 33, 35, 39, 45, 51, 52, 56, 58, 59",LA,73,13,9,16,2.4,0.032876712,Based on Table 1 
+68OHG,"Mudderis et al., 2019",HPV genotype distribution among women with normal and abnormal cervical cytology in Turkey,retrospective,2015,Asia,Western Asia,Turkiye,NA,Both ,Predominantly normal ,LBC,clinical setting ,"overall, HR-HPV, 16, 18, 31, 33, 35, 39, 45, 51, 52, 56, 58, 59",LA,73,13,9,18,1.02,0.013972603,Based on Table 1 
+68OHG,"Mudderis et al., 2019",HPV genotype distribution among women with normal and abnormal cervical cytology in Turkey,retrospective,2015,Asia,Western Asia,Turkiye,NA,Both ,Predominantly normal ,LBC,clinical setting ,"overall, HR-HPV, 16, 18, 31, 33, 35, 39, 45, 51, 52, 56, 58, 59",LA,73,13,9,31,0.584,0.008,Based on Table 1 
+68OHG,"Mudderis et al., 2019",HPV genotype distribution among women with normal and abnormal cervical cytology in Turkey,retrospective,2015,Asia,Western Asia,Turkiye,NA,Both ,Predominantly normal ,LBC,clinical setting ,"overall, HR-HPV, 16, 18, 31, 33, 35, 39, 45, 51, 52, 56, 58, 59",LA,73,13,9,33,0.876,0.012,Based on Table 1 
+68OHG,"Mudderis et al., 2019",HPV genotype distribution among women with normal and abnormal cervical cytology in Turkey,retrospective,2015,Asia,Western Asia,Turkiye,NA,Both ,Predominantly normal ,LBC,clinical setting ,"overall, HR-HPV, 16, 18, 31, 33, 35, 39, 45, 51, 52, 56, 58, 59",LA,73,13,9,35,0.657,0.009,Based on Table 1 
+68OHG,"Mudderis et al., 2019",HPV genotype distribution among women with normal and abnormal cervical cytology in Turkey,retrospective,2015,Asia,Western Asia,Turkiye,NA,Both ,Predominantly normal ,LBC,clinical setting ,"overall, HR-HPV, 16, 18, 31, 33, 35, 39, 45, 51, 52, 56, 58, 59",LA,73,13,9,39,0.511,0.007,Based on Table 1 
+68OHG,"Mudderis et al., 2019",HPV genotype distribution among women with normal and abnormal cervical cytology in Turkey,retrospective,2015,Asia,Western Asia,Turkiye,NA,Both ,Predominantly normal ,LBC,clinical setting ,"overall, HR-HPV, 16, 18, 31, 33, 35, 39, 45, 51, 52, 56, 58, 59",LA,73,13,9,45,0.876,0.012,Based on Table 1 
+68OHG,"Mudderis et al., 2019",HPV genotype distribution among women with normal and abnormal cervical cytology in Turkey,retrospective,2015,Asia,Western Asia,Turkiye,NA,Both ,Predominantly normal ,LBC,clinical setting ,"overall, HR-HPV, 16, 18, 31, 33, 35, 39, 45, 51, 52, 56, 58, 59",LA,73,13,9,51,0.584,0.008,Based on Table 1 
+68OHG,"Mudderis et al., 2019",HPV genotype distribution among women with normal and abnormal cervical cytology in Turkey,retrospective,2015,Asia,Western Asia,Turkiye,NA,Both ,Predominantly normal ,LBC,clinical setting ,"overall, HR-HPV, 16, 18, 31, 33, 35, 39, 45, 51, 52, 56, 58, 59",LA,73,13,9,52,0.584,0.008,Based on Table 1 
+68OHG,"Mudderis et al., 2019",HPV genotype distribution among women with normal and abnormal cervical cytology in Turkey,retrospective,2015,Asia,Western Asia,Turkiye,NA,Both ,Predominantly normal ,LBC,clinical setting ,"overall, HR-HPV, 16, 18, 31, 33, 35, 39, 45, 51, 52, 56, 58, 59",LA,73,13,9,56,0.146,0.002,Based on Table 1 
+68OHG,"Mudderis et al., 2019",HPV genotype distribution among women with normal and abnormal cervical cytology in Turkey,retrospective,2015,Asia,Western Asia,Turkiye,NA,Both ,Predominantly normal ,LBC,clinical setting ,"overall, HR-HPV, 16, 18, 31, 33, 35, 39, 45, 51, 52, 56, 58, 59",LA,73,13,9,58,0.584,0.008,Based on Table 1 
+68OHG,"Mudderis et al., 2019",HPV genotype distribution among women with normal and abnormal cervical cytology in Turkey,retrospective,2015,Asia,Western Asia,Turkiye,NA,Both ,Predominantly normal ,LBC,clinical setting ,"overall, HR-HPV, 16, 18, 31, 33, 35, 39, 45, 51, 52, 56, 58, 59",LA,73,13,9,59,0.073,0.001,Based on Table 1 
+63HGP,"Ucakar et al., 2012","Pre-vaccination prevalence and distribution of high-risk human papillomavirus
+(HPV) types in Slovenian women: A cervical cancer screening based study",cross-sectional ,2010,Europe ,Southern Europe,Slovenia,NA,Both,Predominantly normal ,LBC,screening,"HR-HPV, 16, 18",LA,NA,NA,NA,16,NA,0.00313,"% prevalence of type 16, 18 by age group reported in Figure 1,  however the N for each age group was not provided. Plot digitizer used"
+63HGP,"Ucakar et al., 2012","Pre-vaccination prevalence and distribution of high-risk human papillomavirus
+(HPV) types in Slovenian women: A cervical cancer screening based study",cross-sectional ,2010,Europe ,Southern Europe,Slovenia,NA,Both,Predominantly normal ,LBC,screening,"HR-HPV, 16, 18",LA,NA,NA,NA,18,NA,0.00207,"% prevalence of type 16, 18 by age group reported in Figure 1,  however the N for each age group was not provided. Plot digitizer used"
+78OG,"Vu et al., 2013",Prevalence of cervical infection with HPV type 16 and 18 in Vietnam: implications for vaccine campaign,cross-sectional ,2011,Asia,Southeastern asia,Vietnam,NA,Both,Predominantly normal ,conventional,general population,"overall, 16/18",other PCR,957,NA,82,16/18,56.463,0.059,"Table 1 for N of age groups, Figure 3 for for overall and type 16/18 prevalence by age group"
+65HG,"Wright et al., 2012","The ATHENA human papillomavirus study: design, methods, and baseline results",cross-sectional ,2009,Americas,North America,USA,NA,Both,Predominantly normal ,LBC,screening,"HR-HPV, 16, 18",cobas,10581,NA,639,16,83,0.007844249,"TABLE 3
+HPV prevalence by age group identified using the cobas HPV Test"
+65HG,"Wright et al., 2012","The ATHENA human papillomavirus study: design, methods, and baseline results",cross-sectional ,2009,Americas,North America,USA,NA,Both,Predominantly normal ,LBC,screening,"HR-HPV, 16, 18",cobas,10581,NA,639,18,44,0.004158397,"TABLE 3
+HPV prevalence by age group identified using the cobas HPV Test"
+83OHG,"Yip et al., 2010",Prevalence and Genotype Distribution of Cervical Human Papillomavirus Infection in Macao,cross-sectional ,2008,Asia ,Eastern Asia,China ,Macao,Both ,Predominantly normal ,LBC,screening,"overall, HR-HPV, 16, 18",PGMY09/11,400,51,41,16,9.854,0.024635,"Figure 1 for overall and HR-HPV+, 16, 18 type by age group extracted with plotdigitizer"
+83OHG,"Yip et al., 2010",Prevalence and Genotype Distribution of Cervical Human Papillomavirus Infection in Macao,cross-sectional ,2008,Asia ,Eastern Asia,China ,Macao,Both ,Predominantly normal ,LBC,screening,"overall, HR-HPV, 16, 18",PGMY09/11,400,51,41,18,2.9998,0.0074995,"Figure 1 for overall and HR-HPV+, 16, 18 type by age group extracted with plotdigitizer"
+85OHG,"Zhu et al., 2021","Prevalence and genotype distribution of human papillomavirus infection in Huzhou City, eastern China, 2018–2019",retrospective,2019,Asia ,Eastern Asia,China ,Huzhou,Both,Predominantly normal ,LBC,clinical setting ,"overall, HR-HPV, 16, 52, 53, 58, 81",cobas,745,175,155,16,26.06,0.034979866,"Figure 2C for type 16, 52, 53, 58, 81, by age group with plotdigitizer"
+85OHG,"Zhu et al., 2021","Prevalence and genotype distribution of human papillomavirus infection in Huzhou City, eastern China, 2018–2019",retrospective,2019,Asia ,Eastern Asia,China ,Huzhou,Both,Predominantly normal ,LBC,clinical setting ,"overall, HR-HPV, 16, 52, 53, 58, 81",cobas,745,175,155,52,36.035,0.048369128,"Figure 2C for type 16, 52, 53, 58, 81, by age group with plotdigitizer"
+85OHG,"Zhu et al., 2021","Prevalence and genotype distribution of human papillomavirus infection in Huzhou City, eastern China, 2018–2019",retrospective,2019,Asia ,Eastern Asia,China ,Huzhou,Both,Predominantly normal ,LBC,clinical setting ,"overall, HR-HPV, 16, 52, 53, 58, 81",cobas,745,175,155,53,17.902,0.02402953,"Figure 2C for type 16, 52, 53, 58, 81, by age group with plotdigitizer"
+85OHG,"Zhu et al., 2021","Prevalence and genotype distribution of human papillomavirus infection in Huzhou City, eastern China, 2018–2019",retrospective,2019,Asia ,Eastern Asia,China ,Huzhou,Both,Predominantly normal ,LBC,clinical setting ,"overall, HR-HPV, 16, 52, 53, 58, 81",cobas,745,175,155,58,24.13,0.032389262,"Figure 2C for type 16, 52, 53, 58, 81, by age group with plotdigitizer"
+85OHG,"Zhu et al., 2021","Prevalence and genotype distribution of human papillomavirus infection in Huzhou City, eastern China, 2018–2019",retrospective,2019,Asia ,Eastern Asia,China ,Huzhou,Both,Predominantly normal ,LBC,clinical setting ,"overall, HR-HPV, 16, 52, 53, 58, 81",cobas,745,175,155,81,22.052,0.0296,"Figure 2C for type 16, 52, 53, 58, 81, by age group with plotdigitizer"
+21HG,"Preisler et al., 2013","Prevalence of Human Papillomavirus in 5,072
+Consecutive Cervical SurePath Samples Evaluated with
+the Roche Cobas HPV Real-Time PCR Assay",cross-sectional ,2011,Europe,Northern Europe,Denmark,Copenhagen,Both ,Predominantly normal ,LBC,screening,"HR-HPV, 16, 18",multiple,785,NA,77,16,17,0.021656051,"used the cobas results, and data from Fig 1 and Table 1"
+21HG,"Preisler et al., 2013","Prevalence of Human Papillomavirus in 5,072
+Consecutive Cervical SurePath Samples Evaluated with
+the Roche Cobas HPV Real-Time PCR Assay",cross-sectional ,2011,Europe,Northern Europe,Denmark,Copenhagen,Both ,Predominantly normal ,LBC,screening,"HR-HPV, 16, 18",multiple,785,NA,77,18,5,0.006369427,"used the cobas results, and data from Fig 1 and Table 1"
+23HG,"Du et al., 2021",The prevalence of HR-HPV infection based on self-sampling among women in China exhibited some unique epidemiologic features,cross-sectional ,2018,Asia ,Eastern Asia,China ,NA,Both ,Predominantly normal ,NA,screening,"16, 18, 31, 33, 35, 39,45, 51, 52, 56, 58, 59, 66, 68",multiple,640,NA,NA,16,102,0.159375,overall type specific from Table S3
+23HG,"Du et al., 2021",The prevalence of HR-HPV infection based on self-sampling among women in China exhibited some unique epidemiologic features,cross-sectional ,2018,Asia ,Eastern Asia,China ,NA,Both ,Predominantly normal ,NA,screening,"16, 18, 31, 33, 35, 39,45, 51, 52, 56, 58, 59, 66, 68",multiple,640,NA,NA,18,67,0.1046875,overall type specific from Table S3
+23HG,"Du et al., 2021",The prevalence of HR-HPV infection based on self-sampling among women in China exhibited some unique epidemiologic features,cross-sectional ,2018,Asia ,Eastern Asia,China ,NA,Both ,Predominantly normal ,NA,screening,"16, 18, 31, 33, 35, 39,45, 51, 52, 56, 58, 59, 66, 68",multiple,640,NA,NA,31,50,0.078125,overall type specific from Table S3
+23HG,"Du et al., 2021",The prevalence of HR-HPV infection based on self-sampling among women in China exhibited some unique epidemiologic features,cross-sectional ,2018,Asia ,Eastern Asia,China ,NA,Both ,Predominantly normal ,NA,screening,"16, 18, 31, 33, 35, 39,45, 51, 52, 56, 58, 59, 66, 68",multiple,640,NA,NA,33,57,0.0890625,overall type specific from Table S3
+23HG,"Du et al., 2021",The prevalence of HR-HPV infection based on self-sampling among women in China exhibited some unique epidemiologic features,cross-sectional ,2018,Asia ,Eastern Asia,China ,NA,Both ,Predominantly normal ,NA,screening,"16, 18, 31, 33, 35, 39,45, 51, 52, 56, 58, 59, 66, 68",multiple,640,NA,NA,35,36,0.05625,overall type specific from Table S3
+23HG,"Du et al., 2021",The prevalence of HR-HPV infection based on self-sampling among women in China exhibited some unique epidemiologic features,cross-sectional ,2018,Asia ,Eastern Asia,China ,NA,Both ,Predominantly normal ,NA,screening,"16, 18, 31, 33, 35, 39,45, 51, 52, 56, 58, 59, 66, 68",multiple,640,NA,NA,39,67,0.1046875,overall type specific from Table S3
+23HG,"Du et al., 2021",The prevalence of HR-HPV infection based on self-sampling among women in China exhibited some unique epidemiologic features,cross-sectional ,2018,Asia ,Eastern Asia,China ,NA,Both ,Predominantly normal ,NA,screening,"16, 18, 31, 33, 35, 39,45, 51, 52, 56, 58, 59, 66, 68",multiple,640,NA,NA,45,38,0.059375,overall type specific from Table S3
+23HG,"Du et al., 2021",The prevalence of HR-HPV infection based on self-sampling among women in China exhibited some unique epidemiologic features,cross-sectional ,2018,Asia ,Eastern Asia,China ,NA,Both ,Predominantly normal ,NA,screening,"16, 18, 31, 33, 35, 39,45, 51, 52, 56, 58, 59, 66, 68",multiple,640,NA,NA,51,56,0.0875,overall type specific from Table S3
+23HG,"Du et al., 2021",The prevalence of HR-HPV infection based on self-sampling among women in China exhibited some unique epidemiologic features,cross-sectional ,2018,Asia ,Eastern Asia,China ,NA,Both ,Predominantly normal ,NA,screening,"16, 18, 31, 33, 35, 39,45, 51, 52, 56, 58, 59, 66, 68",multiple,640,NA,NA,52,147,0.2296875,overall type specific from Table S3
+23HG,"Du et al., 2021",The prevalence of HR-HPV infection based on self-sampling among women in China exhibited some unique epidemiologic features,cross-sectional ,2018,Asia ,Eastern Asia,China ,NA,Both ,Predominantly normal ,NA,screening,"16, 18, 31, 33, 35, 39,45, 51, 52, 56, 58, 59, 66, 68",multiple,640,NA,NA,56,41,0.0640625,overall type specific from Table S3
+23HG,"Du et al., 2021",The prevalence of HR-HPV infection based on self-sampling among women in China exhibited some unique epidemiologic features,cross-sectional ,2018,Asia ,Eastern Asia,China ,NA,Both ,Predominantly normal ,NA,screening,"16, 18, 31, 33, 35, 39,45, 51, 52, 56, 58, 59, 66, 68",multiple,640,NA,NA,58,108,0.16875,overall type specific from Table S3
+23HG,"Du et al., 2021",The prevalence of HR-HPV infection based on self-sampling among women in China exhibited some unique epidemiologic features,cross-sectional ,2018,Asia ,Eastern Asia,China ,NA,Both ,Predominantly normal ,NA,screening,"16, 18, 31, 33, 35, 39,45, 51, 52, 56, 58, 59, 66, 68",multiple,640,NA,NA,59,22,0.034375,overall type specific from Table S3
+23HG,"Du et al., 2021",The prevalence of HR-HPV infection based on self-sampling among women in China exhibited some unique epidemiologic features,cross-sectional ,2018,Asia ,Eastern Asia,China ,NA,Both ,Predominantly normal ,NA,screening,"16, 18, 31, 33, 35, 39,45, 51, 52, 56, 58, 59, 66, 68",multiple,640,NA,NA,66,27,0.0421875,overall type specific from Table S3
+23HG,"Du et al., 2021",The prevalence of HR-HPV infection based on self-sampling among women in China exhibited some unique epidemiologic features,cross-sectional ,2018,Asia ,Eastern Asia,China ,NA,Both ,Predominantly normal ,NA,screening,"16, 18, 31, 33, 35, 39,45, 51, 52, 56, 58, 59, 66, 68",multiple,640,NA,NA,68,42,0.065625,overall type specific from Table S3
+41HGP,"Gultekin et al., 2018","Initial results of population based cervical cancer screening
+program using HPV testing in one million Turkish women",cross-sectional ,2016,Asia,Western Asia,Turkiye,NA,Both,Predominantly normal ,Conventional,screening,"HR-HPV, 16/18",HC2,NA,NA,NA,16/18,NA,0.0009,% prevalence of overall HPV by age group reported in Figure 3 however the N for each age group was not provided
+46HGP,"Jiang et al., 2013","The prevalence of human papillomavirus and its
+impact on cervical dysplasia in Northern Canada",cross-sectional ,2010,Americas,North America,Canada,Northwest Territories,Both,Predominantly normal ,LBC,screening,"HR-HPV, 16/18",PGMY09/11 and GP5+/GP6+,NA,NA,NA,16/18,NA,0.01594,figure 2 using plot digitizer
+26OGP,"Borena et al., 2016","Pre-vaccine era cervical human
+papillomavirus infection among screening
+population of women in west Austria",cross-sectional ,2015,Europe,Western Europe,Austria,Tyrol,Both ,Predominantly normal ,LBC,clinical setting ,"Overall, 16, 18",other PCR,NA,NA,NA,16,NA,0.0325," Figure 2 gives the prevalence by age group, however it is difficult to determine the # of infected subjects because there is no breakdown of the # of subjects by age group. % prevlence on the Y axis?"
+26OGP,"Borena et al., 2016","Pre-vaccine era cervical human
+papillomavirus infection among screening
+population of women in west Austria",cross-sectional ,2015,Europe,Western Europe,Austria,Tyrol,Both ,Predominantly normal ,LBC,clinical setting ,"Overall, 16, 18",other PCR,NA,NA,NA,18,NA,0.008," Figure 2 gives the prevalence by age group, however it is difficult to determine the # of infected subjects because there is no breakdown of the # of subjects by age group. % prevlence on the Y axis?"
+42HGP,"Hatzipanagiotou et al., 2018","Human papillomaviruses in Western Africa: prevalences and risk
+factors in Burkina Faso",cross-sectional ,2014,Africa,Western Africa,Burkina Faso,Ouagadougou,Both,Predominantly normal ,VIA,screening,"HR-HPV, 16/18",GP5+/GP6+,NA,NA,NA,16/18,NA,0.0727,"Figure 1, data for 51+ extracted with plot digitizer"
+70HGP,"Lu et al., 2015","Distribution of High-Risk Human Papillomavirus Genotypes in HPV-Infected Women in Beijing, China",retrospective,2013,Asia,Eastern Asia,China,Beijing,Both,Predominantly normal ,NA,clinical setting ,"HR-HPV, 16",GP5+/GP6+,NA,NA,155,16,7,0.0705,Data from Table 1
