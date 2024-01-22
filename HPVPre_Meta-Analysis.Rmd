@@ -107,7 +107,7 @@ setwd("~/path/to/where/you/want/the/local/repo/")
 
 ### Set Private Working-Directory:
 
-```{r eval=TRUE, include=FALSE}
+```{r eval=FALSE, include=FALSE}
 setwd("/Users/vjm/Library/Mobile Documents/iCloud~md~obsidian/Documents/Vaulty/1_Foundations/Together/MubsThesisLocal/RStudioGitMirror")
 
 ```
@@ -270,8 +270,6 @@ hr_type_filtered <- hr_type %>%
 summary(hr_type_filtered)
 nrow(hr_type_filtered)
 
-
-
 ```
 
 ### Extract and view unique study ids in hr_type_filtered to make sure it is correct
@@ -340,7 +338,8 @@ print(unique_study_ids_gtype, n = 43)
 
 
 ```{r}
-summary(any_type_filtered) # there are zero event values in the num_hpv_pos
+summary(any_type_filtered)
+# there are zero event values in the num_hpv_pos?
 ```
 
 ### Identifying zero-event cases
@@ -383,7 +382,7 @@ any_type_ma <- metaprop(event = num_hpv_pos,
                         data = any_type_filtered, 
                         sm = "PFT", 
                         method.tau = "REML",
-                        method.ci = "NAsm",### Specify the method for confidence intervals
+                        method.ci = "NAsm",
                         add = 0,
                         fixed = FALSE,
                         random = TRUE,
@@ -399,7 +398,7 @@ summary(any_type_ma)
 
 ## Create a forest plot based on the meta-analysis results
 ```{r}
-pdf("forestplot.pdf", width=10, height=20)  # Width and height in inches, adjust as needed
+pdf("forestplot.pdf", width=8, height=18) 
 
 forest(any_type_ma, 
        common = TRUE, 
@@ -422,13 +421,15 @@ forest(any_type_ma,
        col.square = "navy", 
        col.square.lines = "navy", 
        col.diamond = "maroon", 
-       col.diamond.lines = "maroon")
+       col.diamond.lines = "maroon",
+       sortvar = TE
+       )
 
 dev.off()
 ```
 
 ```{r}
-pdf("forestplot2.pdf", width=10, height=20)  # Width and height in inches, adjust as needed
+pdf("forestplot2.pdf", width=8, height=18)  
 
 forest(any_type_ma,
        common = TRUE, 
@@ -447,7 +448,8 @@ forest(any_type_ma,
        pscale = 1, 
        squaresize = 0.5, 
        fs.hetstat = 10, 
-       digits = 2, 
+       digits = 2,
+       sortvar = n,
        col.square = "navy", 
        col.square.lines = "navy", 
        col.diamond = "maroon", 
@@ -463,14 +465,173 @@ dev.off()
 system2('open', args = 'forestplot2.pdf', wait = FALSE)
 ```
 
+## Explanation & Interpretation of Forest Plot
 
-# Funnel Plot
+Heterogeneity:
+Higgins & Thompson’s (https://bookdown.org/MathiasHarrer/Doing_Meta_Analysis_in_R/references.html#ref-higgins2002quantifying) Statistic I^2 = 99%,
+Tau^2 = 0.0255,
+Chi^2 82 = 12620.36 (p = 0)
+
+In the meta-analysis you provided, the between-study heterogeneity is quantified using several statistical measures, which are crucial for interpreting the results:
+
+- **I² Statistic**: Higgins & Thompson’s I² statistic is 99%, which suggests that 99% of the variability in effect estimates is due to true differences in effect sizes across studies rather than chance. An I² value of this magnitude indicates substantial heterogeneity, necessitating careful consideration in the analysis and interpretation of results.
+
+- **Tau² (tau²)**: The tau² value is 0.0255, indicating the estimated variance of underlying effect sizes across studies. A tau² greater than zero suggests that there is variation in effect sizes that the model attributes to heterogeneity rather than sampling error.
+
+- **Chi-Square (Chi²)**: The chi² statistic, with a value of 12620.36 and 82 degrees of freedom, is highly significant (p = 0). This reinforces the presence of heterogeneity, as a large chi² relative to its degrees of freedom typically indicates that the variability in observed effects is greater than what would be expected by sampling error alone.
+
+The choice of an inverse variance method in this analysis is justified as it weights each study by the inverse of its variance, giving more weight to studies with greater precision. The restricted maximum-likelihood estimator for tau² is used for its property of being unbiased in large samples, and the Q-Profile method provides confidence intervals for tau² and tau, considered more accurate for small numbers of studies.
+
+The Hartung-Knapp adjustment for the random effects model is justified by the need to correct the tendency of the conventional random-effects model to under-estimate the variance of the pooled effect size when there is significant heterogeneity. This adjustment provides a more conservative estimate that accounts for the random-effects distribution.
+
+The Freeman-Tukey double arcsine transformation was appropriately chosen to stabilize the variances of studies that report proportions near 0 or 1, ensuring a more accurate estimation of the pooled effect size. This is particularly relevant when dealing with proportions, as in prevalence studies.
+
+The significant heterogeneity suggested by these statistics implies that the pooled prevalence rate of 16.03% for HPV among women aged 50 years and older with predominantly normal cytology might not reflect the true rate for any specific study or population. Subgroup analyses or meta-regression could be explored to understand the sources of heterogeneity, like differences in population characteristics, study designs, or methodologies. The clinical and public health implications should be interpreted with caution, considering the substantial variation in study outcomes. This heterogeneity must be acknowledged when applying the findings to specific populations or settings.
+
+
+
+# Addressing Risks of Bias from Publication Bias
+## Funnel Plot
 ```{r}
-funnel(any_type_ma, main="Funnel Plot for Meta-Analysis", xlim=c(0, 1))
+library(meta)
+
+# Define fill colors for contour
+col.contour = c("gray75", "gray85", "gray95")
+
+funnel(any_type_ma, xlim = c(0, 1), 
+       main = "Funnel Plot of HPV Prevalence Studies", 
+       xlab = "Effect Size", 
+       slab = paste(any_type_ma$author_year, any_type_ma$study_id),
+       ci.lim = TRUE, 
+       shade = TRUE,
+       contour = c(0.9, 0.95, 0.99),
+       col.contour = col.contour
+)
 
 ```
 
 
+## Egger's test for publication bias
+```{r}
+# Egger's test for publication bias using meta
+library(meta)
+egger_test <- metabias(any_type_ma, method.bias = "Egger")
+print(egger_test)
+
+```
+### Description:
+The test statistic (t-value) is 0.67, with 81 degrees of freedom, resulting in a p-value of 0.5042. The bias estimate is 1.2805, with a standard error (SE) of 1.9088.
+The Egger's test for publication bias yielded a non-significant result (p-value = 0.5042), with a bias estimate of 1.2805.
+
+### Explanation:
+Egger's test assesses the symmetry of the funnel plot, which can be an indicator of publication bias. The test statistic and p-value indicate whether there is statistically significant evidence of asymmetry. A p-value greater than 0.05 suggests no significant evidence of publication bias. The bias estimate represents the extent of bias detected, with its standard error indicating the variability of this estimate.
+Egger's test assesses funnel plot asymmetry to detect publication bias. The non-significant p-value suggests that there is no strong evidence of bias in the studies included in the meta-analysis. The bias estimate quantifies the potential bias detected, but its non-significant nature implies that it may not be a reliable indicator of actual bias.
+
+
+### Interpretation:
+In your meta-analysis, the high p-value (0.5042) suggests that there is no significant evidence of publication bias. This implies that the studies included in your meta-analysis are not overly skewed towards reporting only significant or positive results, and the overall results can be considered more reliable.
+The results indicate no substantial publication bias in your meta-analysis. This suggests a balanced representation of studies, including those with both significant and non-significant findings. It supports the reliability of your meta-analysis results, assuming that unpublished studies or those with negative results are not disproportionately missing.
+
+
+
+
+
+
+
+# Sensitivity Analysis for Meta-Analysis
+
+## Excluding Studies with Zero Events
+```{r exclude-zero-events}
+# Create a vector of study identifiers with zero events
+studies_with_zero_events <- c("Becker et al., 1991", "Eren et al., 2010", "Rahmat et al., 2021")
+
+# Filter out these studies
+any_type_filtered_sensitivity <- any_type_filtered[!any_type_filtered$author_year %in% studies_with_zero_events, ]
+
+# Re-run the meta-analysis
+any_type_ma_sens <- metaprop(event = num_hpv_pos, 
+                             n = num_older_wom,
+                             studlab = author_year,
+                             data = any_type_filtered_sensitivity, 
+                             sm = "PFT", 
+                             method.tau = "REML",
+                             add = 0,
+                             fixed = FALSE,
+                             random = TRUE,
+                             hakn = TRUE,
+                             title = "Sensitivity Analysis - Excluding Zero Events")
+summary(any_type_ma_sens)
+
+```
+##
+### Results:
+This analysis included 80 studies with a total of 94,036 observations and 15,654 events. The summary of the meta-analysis using a random effects model provided the following results:
+Estimated HPV prevalence (proportion) is 16.62% with a 95% confidence interval (CI) of [13.96%; 19.47%].
+High heterogeneity is indicated by an I² statistic of 99.4% and a tau² value of 0.0247.
+The Q test for heterogeneity was significant (Q = 12604.40, df = 79, p < 0.001).
+
+### Explanation:
+The proportion of 16.62% indicates that the estimated prevalence of HPV in the specified population, after excluding zero-event studies, is about 16.62%.
+The high I² value suggests that there is substantial variability in the effect sizes across the included studies, which is not attributable to chance. This indicates that factors other than sampling error contribute to the observed differences.
+The tau² value provides an estimate of the between-study variance in true effect sizes.
+The Q test's significance indicates that the observed variability in effect sizes is more than what would be expected by chance, reinforcing the presence of heterogeneity.
+
+
+### Interpretation:
+The estimated prevalence of HPV in the target population is significant, suggesting a considerable public health concern.
+The high level of heterogeneity suggests that individual study characteristics or other contextual factors might be influencing the HPV prevalence rates. It implies the need for further exploration into potential sources of this heterogeneity, such as differences in study design, population demographics, or HPV testing methods.
+The results underscore the importance of careful interpretation of meta-analysis findings, especially in the presence of high heterogeneity.
+
+
+
+
+
+
+
+
+## Excluding Studies with Small Sample Sizes
+```{r exclude-small-studies}
+# Define threshold for small studies
+threshold <- 100
+
+# Filter out small studies
+filtered_data <- any_type_filtered[any_type_filtered$num_older_wom >= threshold, ]
+
+# Re-run meta-analysis
+small_studies_ma <- metaprop(event = num_hpv_pos, 
+                             n = num_older_wom,
+                             studlab = author_year,
+                             data = filtered_data, 
+                             sm = "PFT", 
+                             method.tau = "REML",
+                             add = 0,
+                             fixed = FALSE,
+                             random = TRUE,
+                             hakn = TRUE,
+                             title = "Sensitivity Analysis - Excluding Small Studies")
+summary(small_studies_ma)
+
+```
+
+### Results:
+The sensitivity analysis conducted by excluding studies with small sample sizes (less than 100 participants) from the meta-analysis of HPV prevalence among women aged 50 and older with predominantly normal cytology yielded the following:
+The analysis included 59 studies with 92,985 observations and 15,389 events.
+The estimated HPV prevalence (proportion) is 14.73% with a 95% confidence interval (CI) of [12.03%; 17.65%].
+The heterogeneity remains high, indicated by an I² statistic of 99.5% and a tau² value of 0.0224.
+The Q test for heterogeneity is significant (Q = 12419.83, df = 58, p < 0.001).
+
+
+### Explanation:
+Proportion of 14.73%: This reduced prevalence (compared to the initial analysis including smaller studies) suggests that the overall HPV prevalence estimate becomes slightly lower when focusing on larger studies. This might reflect more stable prevalence estimates in larger samples.
+High I² value: Despite excluding smaller studies, the heterogeneity remains very high, indicating substantial differences in prevalence rates across studies. This suggests that factors other than sample size are contributing to this variability.
+Tau² value: This provides an estimate of between-study variance in true effect sizes, which remains significant, further confirming the presence of heterogeneity.
+Q test's significance: This reinforces the presence of heterogeneity in the meta-analysis, as the variability in effect sizes is greater than what would be expected by chance.
+
+
+### Interpretation:
+The slightly lower prevalence rate after excluding small studies might indicate that smaller studies could be showing higher variability or bias in prevalence estimates.
+The persistent high heterogeneity after excluding small studies suggests the need for further exploration into other sources of heterogeneity, such as differences in study methodologies, population demographics, or regional factors.
+The findings imply that while sample size is a factor, it is not the sole contributor to the variability in HPV prevalence rates observed across studies.
 
 
 
@@ -482,10 +643,79 @@ funnel(any_type_ma, main="Funnel Plot for Meta-Analysis", xlim=c(0, 1))
 
 
 
+## Subgroup Analysis by Geographic Region
+```{r subgroup-analysis-region}
+subgroup_analysis <- metaprop(event = num_hpv_pos, 
+                              n = num_older_wom,
+                              studlab = author_year,
+                              data = any_type_filtered,
+                              sm = "PFT", 
+                              method.tau = "REML",
+                              byvar = world_subregion,  
+                              title = "Subgroup Analysis - By Geographic Region")
+summary(subgroup_analysis)
+
+```
+
+### Results:
+Overall Findings: The subgroup analysis by world subregion included 83 studies, with 94,086 observations and 15,654 events. The random-effects model estimated an HPV prevalence of 16.03% with a 95% CI of [13.42%; 18.81%].
+Heterogeneity: High heterogeneity is indicated with an I² of 99.4% and tau² of 0.0255, suggesting substantial variation in prevalence across studies.
+Subgroup Results: The prevalence varied significantly across regions, with the highest prevalence in Middle Africa (66.67%) and the lowest in Southeastern Asia (5.41% in the common effect model and 7.40% in the random effects model).
+Subgroup Differences: Significant differences were found between groups (Q = 628.20, p < 0.0001), indicating substantial variation in HPV prevalence across different world subregions.
+
+### Explanation:
+Variation in Prevalence: The wide variation in HPV prevalence among different subregions could be due to differences in demographic factors, HPV screening practices, and prevalence of high-risk HPV types.
+High Heterogeneity: The high heterogeneity within and between subgroups suggests that prevalence rates are influenced by diverse factors, including study methodologies and population characteristics.
+Subgroup Variability: The substantial variability between subregions highlights the importance of considering geographical differences when interpreting HPV prevalence data.
+
+### Interpretation of Results:
+Global Variability: These findings underscore the global variability in HPV prevalence among women aged 50 and older with predominantly normal cytology, emphasizing the need for region-specific public health strategies.
+Public Health Implications: The significant differences in prevalence rates across regions suggest that public health interventions and HPV screening programs need to be tailored to specific regional contexts.
 
 
 
 
 
 
+
+
+
+                    
+                      
+# Additional Analyses:
+
+
+a. Genotype-Specific Analysis: Where data on specific HPV genotypes are available, conduct separate analyses for high-risk types (e.g., HPV-16, HPV-18) and other types.
+
+
+
+
+b. Age-Subgroup Analysis: Explore HPV prevalence in different age brackets within the over-50 demographic.
+
+
+
+
+
+e. Meta-Regression: If data permits, explore factors (e.g., study year, testing methods) that might explain heterogeneity.                      
+                      
+ 
+
+
+
+
+
+
+
+
+
+
+
+If there are X numbers of studies with different prevalence rates 
+3.2
+
+
+
+
+
+Abstract
 
